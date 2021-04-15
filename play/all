@@ -1,0 +1,3873 @@
+adc al, imm8
+adc ax, imm16
+adc eax, imm32
+adc m16, imm16
+adc m16, imm8
+adc m16, r16
+adc m32, imm32
+adc m32, imm8
+adc m32, r32
+adc m64, imm32
+adc m64, imm8
+adc m64, r64
+adc m8, imm8
+adc m8, r8
+adc m8, rh
+adc r16, imm16
+adc r16, imm8
+adc r16, m16
+adc r16, r16
+adc_1 r16, r16
+adc r32, imm32
+adc r32, imm8
+adc r32, m32
+adc r32, r32
+adc_1 r32, r32
+adc r64, imm32
+adc r64, imm8
+adc r64, m64
+adc r64, r64
+adc_1 r64, r64
+adc r8, imm8
+adc r8, m8
+adc r8, r8
+adc_1 r8, r8
+adc r8, rh
+adc_1 r8, rh
+adc rax, imm32
+adc rh, imm8
+adc rh, m8
+adc rh, r8
+adc_1 rh, r8
+adc rh, rh
+adc_1 rh, rh
+add al, imm8
+add ax, imm16
+add eax, imm32
+add m16, imm16
+add m16, imm8
+add m16, r16
+add m32, imm32
+add m32, imm8
+add m32, r32
+add m64, imm32
+add m64, imm8
+add m64, r64
+add m8, imm8
+add m8, r8
+add m8, rh
+add r16, imm16
+add r16, imm8
+add r16, m16
+add r16, r16
+add_1 r16, r16
+add r32, imm32
+add r32, imm8
+add r32, m32
+add r32, r32
+add_1 r32, r32
+add r64, imm32
+add r64, imm8
+add r64, m64
+add r64, r64
+add_1 r64, r64
+add r8, imm8
+add r8, m8
+add r8, r8
+add_1 r8, r8
+add r8, rh
+add_1 r8, rh
+add rax, imm32
+add rh, imm8
+add rh, m8
+add rh, r8
+add_1 rh, r8
+add rh, rh
+add_1 rh, rh
+addpd xmm, m128
+addpd xmm, xmm
+addps xmm, m128
+addps xmm, xmm
+addsd xmm, m64
+addsd xmm, xmm
+addss xmm, m32
+addss xmm, xmm
+addsubpd xmm, m128
+addsubpd xmm, xmm
+addsubps xmm, m128
+addsubps xmm, xmm
+aesdec xmm, m128
+aesdec xmm, xmm
+aesdeclast xmm, m128
+aesdeclast xmm, xmm
+aesenc xmm, m128
+aesenc xmm, xmm
+aesenclast xmm, m128
+aesenclast xmm, xmm
+aesimc xmm, m128
+aesimc xmm, xmm
+aeskeygenassist xmm, m128, imm8
+aeskeygenassist xmm, xmm, imm8
+and_ al, imm8
+and_ ax, imm16
+and_ eax, imm32
+and_ m16, imm16
+and_ m16, imm8
+and_ m16, r16
+and_ m32, imm32
+and_ m32, imm8
+and_ m32, r32
+and_ m64, imm32
+and_ m64, imm8
+and_ m64, r64
+and_ m8, imm8
+and_ m8, r8
+and_ m8, rh
+and_ r16, imm16
+and_ r16, imm8
+and_ r16, m16
+and_ r16, r16
+and__1 r16, r16
+and_ r32, imm32
+and_ r32, imm8
+and_ r32, m32
+and_ r32, r32
+and__1 r32, r32
+and_ r64, imm32
+and_ r64, imm8
+and_ r64, m64
+and_ r64, r64
+and__1 r64, r64
+and_ r8, imm8
+and_ r8, m8
+and_ r8, r8
+and__1 r8, r8
+and_ r8, rh
+and__1 r8, rh
+and_ rax, imm32
+and_ rh, imm8
+and_ rh, m8
+and_ rh, r8
+and__1 rh, r8
+and_ rh, rh
+and__1 rh, rh
+andn r32, r32, m32
+andn r32, r32, r32
+andn r64, r64, m64
+andn r64, r64, r64
+andnpd xmm, m128
+andnpd xmm, xmm
+andnps xmm, m128
+andnps xmm, xmm
+andpd xmm, m128
+andpd xmm, xmm
+andps xmm, m128
+andps xmm, xmm
+bextr r32, m32, r32
+bextr r32, r32, r32
+bextr r64, m64, r64
+bextr r64, r64, r64
+blendpd xmm, m128, imm8
+blendpd xmm, xmm, imm8
+blendps xmm, m128, imm8
+blendps xmm, xmm, imm8
+blendvpd xmm, m128, xmm0
+blendvpd xmm, xmm, xmm0
+blendvps xmm, m128, xmm0
+blendvps xmm, xmm, xmm0
+blsi r32, m32
+blsi r32, r32
+blsi r64, m64
+blsi r64, r64
+blsmsk r32, m32
+blsmsk r32, r32
+blsmsk r64, m64
+blsmsk r64, r64
+blsr r32, m32
+blsr r32, r32
+blsr r64, m64
+blsr r64, r64
+bsf r16, m16
+bsf r16, r16
+bsf r32, m32
+bsf r32, r32
+bsf r64, m64
+bsf r64, r64
+bsr r16, m16
+bsr r16, r16
+bsr r32, m32
+bsr r32, r32
+bsr r64, m64
+bsr r64, r64
+bswap r32
+bswap r64
+bt m16, imm8
+bt m16, r16
+bt m32, imm8
+bt m32, r32
+bt m64, imm8
+bt m64, r64
+bt r16, imm8
+bt r16, r16
+bt r32, imm8
+bt r32, r32
+bt r64, imm8
+bt r64, r64
+btc m16, imm8
+btc m16, r16
+btc m32, imm8
+btc m32, r32
+btc m64, imm8
+btc m64, r64
+btc r16, imm8
+btc r16, r16
+btc r32, imm8
+btc r32, r32
+btc r64, imm8
+btc r64, r64
+btr m16, imm8
+btr m16, r16
+btr m32, imm8
+btr m32, r32
+btr m64, imm8
+btr m64, r64
+btr r16, imm8
+btr r16, r16
+btr r32, imm8
+btr r32, r32
+btr r64, imm8
+btr r64, r64
+bts m16, imm8
+bts m16, r16
+bts m32, imm8
+bts m32, r32
+bts m64, imm8
+bts m64, r64
+bts r16, imm8
+bts r16, r16
+bts r32, imm8
+bts r32, r32
+bts r64, imm8
+bts r64, r64
+bzhi r32, m32, r32
+bzhi r32, r32, r32
+bzhi r64, m64, r64
+bzhi r64, r64, r64
+call farptr1616
+call farptr1632
+call farptr1664
+call label
+call m64
+call r64
+call rel32
+cbw
+cdq
+cdqe
+clc
+cld
+clflush m8
+cli
+cmc
+cmova r16, m16
+cmova r16, r16
+cmova r32, m32
+cmova r32, r32
+cmova r64, m64
+cmova r64, r64
+cmovae r16, m16
+cmovae r16, r16
+cmovae r32, m32
+cmovae r32, r32
+cmovae r64, m64
+cmovae r64, r64
+cmovb r16, m16
+cmovb r16, r16
+cmovb r32, m32
+cmovb r32, r32
+cmovb r64, m64
+cmovb r64, r64
+cmovbe r16, m16
+cmovbe r16, r16
+cmovbe r32, m32
+cmovbe r32, r32
+cmovbe r64, m64
+cmovbe r64, r64
+cmovc r16, m16
+cmovc r16, r16
+cmovc r32, m32
+cmovc r32, r32
+cmovc r64, m64
+cmovc r64, r64
+cmove r16, m16
+cmove r16, r16
+cmove r32, m32
+cmove r32, r32
+cmove r64, m64
+cmove r64, r64
+cmovg r16, m16
+cmovg r16, r16
+cmovg r32, m32
+cmovg r32, r32
+cmovg r64, m64
+cmovg r64, r64
+cmovge r16, m16
+cmovge r16, r16
+cmovge r32, m32
+cmovge r32, r32
+cmovge r64, m64
+cmovge r64, r64
+cmovl r16, m16
+cmovl r16, r16
+cmovl r32, m32
+cmovl r32, r32
+cmovl r64, m64
+cmovl r64, r64
+cmovle r16, m16
+cmovle r16, r16
+cmovle r32, m32
+cmovle r32, r32
+cmovle r64, m64
+cmovle r64, r64
+cmovna r16, m16
+cmovna r16, r16
+cmovna r32, m32
+cmovna r32, r32
+cmovna r64, m64
+cmovna r64, r64
+cmovnae r16, m16
+cmovnae r16, r16
+cmovnae r32, m32
+cmovnae r32, r32
+cmovnae r64, m64
+cmovnae r64, r64
+cmovnb r16, m16
+cmovnb r16, r16
+cmovnb r32, m32
+cmovnb r32, r32
+cmovnb r64, m64
+cmovnb r64, r64
+cmovnbe r16, m16
+cmovnbe r16, r16
+cmovnbe r32, m32
+cmovnbe r32, r32
+cmovnbe r64, m64
+cmovnbe r64, r64
+cmovnc r16, m16
+cmovnc r16, r16
+cmovnc r32, m32
+cmovnc r32, r32
+cmovnc r64, m64
+cmovnc r64, r64
+cmovne r16, m16
+cmovne r16, r16
+cmovne r32, m32
+cmovne r32, r32
+cmovne r64, m64
+cmovne r64, r64
+cmovng r16, m16
+cmovng r16, r16
+cmovng r32, m32
+cmovng r32, r32
+cmovng r64, m64
+cmovng r64, r64
+cmovnge r16, m16
+cmovnge r16, r16
+cmovnge r32, m32
+cmovnge r32, r32
+cmovnge r64, m64
+cmovnge r64, r64
+cmovnl r16, m16
+cmovnl r16, r16
+cmovnl r32, m32
+cmovnl r32, r32
+cmovnl r64, m64
+cmovnl r64, r64
+cmovnle r16, m16
+cmovnle r16, r16
+cmovnle r32, m32
+cmovnle r32, r32
+cmovnle r64, m64
+cmovnle r64, r64
+cmovno r16, m16
+cmovno r16, r16
+cmovno r32, m32
+cmovno r32, r32
+cmovno r64, m64
+cmovno r64, r64
+cmovnp r16, m16
+cmovnp r16, r16
+cmovnp r32, m32
+cmovnp r32, r32
+cmovnp r64, m64
+cmovnp r64, r64
+cmovns r16, m16
+cmovns r16, r16
+cmovns r32, m32
+cmovns r32, r32
+cmovns r64, m64
+cmovns r64, r64
+cmovnz r16, m16
+cmovnz r16, r16
+cmovnz r32, m32
+cmovnz r32, r32
+cmovnz r64, m64
+cmovnz r64, r64
+cmovo r16, m16
+cmovo r16, r16
+cmovo r32, m32
+cmovo r32, r32
+cmovo r64, m64
+cmovo r64, r64
+cmovp r16, m16
+cmovp r16, r16
+cmovp r32, m32
+cmovp r32, r32
+cmovp r64, m64
+cmovp r64, r64
+cmovpe r16, m16
+cmovpe r16, r16
+cmovpe r32, m32
+cmovpe r32, r32
+cmovpe r64, m64
+cmovpe r64, r64
+cmovpo r16, m16
+cmovpo r16, r16
+cmovpo r32, m32
+cmovpo r32, r32
+cmovpo r64, m64
+cmovpo r64, r64
+cmovs r16, m16
+cmovs r16, r16
+cmovs r32, m32
+cmovs r32, r32
+cmovs r64, m64
+cmovs r64, r64
+cmovz r16, m16
+cmovz r16, r16
+cmovz r32, m32
+cmovz r32, r32
+cmovz r64, m64
+cmovz r64, r64
+cmp al, imm8
+cmp ax, imm16
+cmp eax, imm32
+cmp m16, imm16
+cmp m16, imm8
+cmp m16, r16
+cmp m32, imm32
+cmp m32, imm8
+cmp m32, r32
+cmp m64, imm32
+cmp m64, imm8
+cmp m64, r64
+cmp m8, imm8
+cmp m8, r8
+cmp m8, rh
+cmp r16, imm16
+cmp r16, imm8
+cmp r16, m16
+cmp r16, r16
+cmp_1 r16, r16
+cmp r32, imm32
+cmp r32, imm8
+cmp r32, m32
+cmp r32, r32
+cmp_1 r32, r32
+cmp r64, imm32
+cmp r64, imm8
+cmp r64, m64
+cmp r64, r64
+cmp_1 r64, r64
+cmp r8, imm8
+cmp r8, m8
+cmp r8, r8
+cmp_1 r8, r8
+cmp r8, rh
+cmp_1 r8, rh
+cmp rax, imm32
+cmp rh, imm8
+cmp rh, m8
+cmp rh, r8
+cmp_1 rh, r8
+cmp rh, rh
+cmp_1 rh, rh
+cmppd xmm, m128, imm8
+cmppd xmm, xmm, imm8
+cmpps xmm, m128, imm8
+cmpps xmm, xmm, imm8
+cmps m16, m16
+cmps m32, m32
+cmps m64, m64
+cmps m8, m8
+cmpsb
+cmpsd
+cmpsd xmm, m64, imm8
+cmpsd xmm, xmm, imm8
+cmpsq
+cmpss xmm, m32, imm8
+cmpss xmm, xmm, imm8
+cmpsw
+cmpxchg m16, r16
+cmpxchg m32, r32
+cmpxchg m64, r64
+cmpxchg m8, r8
+cmpxchg m8, rh
+cmpxchg r16, r16
+cmpxchg r32, r32
+cmpxchg r64, r64
+cmpxchg r8, r8
+cmpxchg r8, rh
+cmpxchg rh, r8
+cmpxchg rh, rh
+cmpxchg16b m128
+cmpxchg8b m64
+comisd xmm, m64
+comisd xmm, xmm
+comiss xmm, m32
+comiss xmm, xmm
+cpuid
+cqo
+crc32 r32, m16
+crc32 r32, m32
+crc32 r32, m8
+crc32 r32, r16
+crc32 r32, r32
+crc32 r32, r8
+crc32 r32, rh
+crc32 r64, m64
+crc32 r64, m8
+crc32 r64, r64
+crc32 r64, r8
+cvtdq2pd xmm, m64
+cvtdq2pd xmm, xmm
+cvtdq2ps xmm, m128
+cvtdq2ps xmm, xmm
+cvtpd2dq xmm, m128
+cvtpd2dq xmm, xmm
+cvtpd2pi mm, m128
+cvtpd2pi mm, xmm
+cvtpd2ps xmm, m128
+cvtpd2ps xmm, xmm
+cvtpi2pd xmm, m64
+cvtpi2pd xmm, mm
+cvtpi2ps xmm, m64
+cvtpi2ps xmm, mm
+cvtps2dq xmm, m128
+cvtps2dq xmm, xmm
+cvtps2pd xmm, m64
+cvtps2pd xmm, xmm
+cvtps2pi mm, m64
+cvtps2pi mm, xmm
+cvtsd2si r32, m64
+cvtsd2si r32, xmm
+cvtsd2si r64, m64
+cvtsd2si r64, xmm
+cvtsd2ss xmm, m64
+cvtsd2ss xmm, xmm
+cvtsi2sd xmm, m32
+cvtsi2sd xmm, m64
+cvtsi2sd xmm, r32
+cvtsi2sd xmm, r64
+cvtsi2ss xmm, m32
+cvtsi2ss xmm, m64
+cvtsi2ss xmm, r32
+cvtsi2ss xmm, r64
+cvtss2sd xmm, m32
+cvtss2sd xmm, xmm
+cvtss2si r32, m32
+cvtss2si r32, xmm
+cvtss2si r64, m32
+cvtss2si r64, xmm
+cvttpd2dq xmm, m128
+cvttpd2dq xmm, xmm
+cvttpd2pi mm, m128
+cvttpd2pi mm, xmm
+cvttps2dq xmm, m128
+cvttps2dq xmm, xmm
+cvttps2pi mm, m64
+cvttps2pi mm, xmm
+cvttsd2si r32, m64
+cvttsd2si r32, xmm
+cvttsd2si r64, m64
+cvttsd2si r64, xmm
+cvttss2si r32, m32
+cvttss2si r32, xmm
+cvttss2si r64, m32
+cvttss2si r64, xmm
+cwd
+cwde
+dec m16
+dec m32
+dec m64
+dec m8
+dec r16
+dec r32
+dec r64
+dec r8
+dec rh
+div m16
+div m32
+div m64
+div m8
+div r16
+div r32
+div r64
+div r8
+div rh
+divpd xmm, m128
+divpd xmm, xmm
+divps xmm, m128
+divps xmm, xmm
+divsd xmm, m64
+divsd xmm, xmm
+divss xmm, m32
+divss xmm, xmm
+dppd xmm, m128, imm8
+dppd xmm, xmm, imm8
+dpps xmm, m128, imm8
+dpps xmm, xmm, imm8
+emms
+enter imm8, imm16
+enter one, imm16
+enter zero, imm16
+extractps m32, xmm, imm8
+extractps r32, xmm, imm8
+extractps r64, xmm, imm8
+f2xm1
+fabs
+fadd m32fp
+fadd m64fp
+fadd st, st0
+fadd st0, st
+faddp
+faddp st, st0
+fbld m80bcd
+fbstp m80bcd
+fchs
+fclex
+fcmovb st0, st
+fcmovbe st0, st
+fcmove st0, st
+fcmovnb st0, st
+fcmovnbe st0, st
+fcmovne st0, st
+fcmovnu st0, st
+fcmovu st0, st
+fcom
+fcom m32fp
+fcom m64fp
+fcom st
+fcomi st0, st
+fcomip st0, st
+fcomp
+fcomp m32fp
+fcomp m64fp
+fcomp st
+fcompp
+fcos
+fdecstp
+fdiv m32fp
+fdiv m64fp
+fdiv st, st0
+fdiv st0, st
+fdivp
+fdivp st, st0
+fdivr m32fp
+fdivr m64fp
+fdivr st, st0
+fdivr st0, st
+fdivrp
+fdivrp st, st0
+ffree st
+fiadd m16int
+fiadd m32int
+ficom m16int
+ficom m32int
+ficomp m16int
+ficomp m32int
+fidiv m16int
+fidiv m32int
+fidivr m16int
+fidivr m32int
+fild m16int
+fild m32int
+fild m64int
+fimul m16int
+fimul m32int
+fincstp
+finit
+fist m16int
+fist m32int
+fistp m16int
+fistp m32int
+fistp m64int
+fisttp m16int
+fisttp m32int
+fisttp m64int
+fisub m16int
+fisub m32int
+fisubr m16int
+fisubr m32int
+fld m32fp
+fld m64fp
+fld m80fp
+fld st
+fld1
+fldcw m2byte
+fldenv m28byte
+fldl2e
+fldl2t
+fldlg2
+fldln2
+fldpi
+fldz
+fmul m32fp
+fmul m64fp
+fmul st, st0
+fmul st0, st
+fmulp
+fmulp st, st0
+fnclex
+fninit
+fnop
+fnsave m108byte
+fnstcw m2byte
+fnstenv m28byte
+fnstsw ax
+fnstsw m2byte
+fpatan
+fprem
+fprem1
+fptan
+frndint
+frstor m108byte
+fsave m108byte
+fscale
+fsin
+fsincos
+fsqrt
+fst m32fp
+fst m64fp
+fst st
+fstcw m2byte
+fstenv m28byte
+fstp m32fp
+fstp m64fp
+fstp m80fp
+fstp st
+fstsw ax
+fstsw m2byte
+fsub m32fp
+fsub m64fp
+fsub st, st0
+fsub st0, st
+fsubp
+fsubp st, st0
+fsubr m32fp
+fsubr m64fp
+fsubr st, st0
+fsubr st0, st
+fsubrp
+fsubrp st, st0
+ftst
+fucom
+fucom st
+fucomi st0, st
+fucomip st0, st
+fucomp
+fucomp st
+fucompp
+fwait
+fxam
+fxch
+fxch st
+fxrstor m512byte
+fxrstor64 m512byte
+fxsave m512byte
+fxsave64 m512byte
+fxtract
+fyl2x
+fyl2xp1
+haddpd xmm, m128
+haddpd xmm, xmm
+haddps xmm, m128
+haddps xmm, xmm
+hsubpd xmm, m128
+hsubpd xmm, xmm
+hsubps xmm, m128
+hsubps xmm, xmm
+idiv m16
+idiv m32
+idiv m64
+idiv m8
+idiv r16
+idiv r32
+idiv r64
+idiv r8
+idiv rh
+imul m16
+imul m32
+imul m64
+imul m8
+imul r16
+imul r16, m16
+imul r16, m16, imm16
+imul r16, m16, imm8
+imul r16, r16
+imul r16, r16, imm16
+imul r16, r16, imm8
+imul r32
+imul r32, m32
+imul r32, m32, imm32
+imul r32, m32, imm8
+imul r32, r32
+imul r32, r32, imm32
+imul r32, r32, imm8
+imul r64
+imul r64, m64
+imul r64, m64, imm32
+imul r64, m64, imm8
+imul r64, r64
+imul r64, r64, imm32
+imul r64, r64, imm8
+imul r8
+imul rh
+in al, dx
+in al, imm8
+in ax, dx
+in ax, imm8
+in eax, dx
+in eax, imm8
+inc m16
+inc m32
+inc m64
+inc m8
+inc r16
+inc r32
+inc r64
+inc r8
+inc rh
+ins m16, dx
+ins m32, dx
+ins m8, dx
+insb
+insd
+insertps xmm, m32, imm8
+insertps xmm, xmm, imm8
+insw
+int_ imm8
+int_ three
+invpcid r64, m128
+iret
+iretd
+iretq
+ja label
+ja_1 label
+ja label, hint
+ja_1 label, hint
+ja rel32
+ja rel32, hint
+ja rel8
+ja rel8, hint
+jae label
+jae_1 label
+jae label, hint
+jae_1 label, hint
+jae rel32
+jae rel32, hint
+jae rel8
+jae rel8, hint
+jb label
+jb_1 label
+jb label, hint
+jb_1 label, hint
+jb rel32
+jb rel32, hint
+jb rel8
+jb rel8, hint
+jbe label
+jbe_1 label
+jbe label, hint
+jbe_1 label, hint
+jbe rel32
+jbe rel32, hint
+jbe rel8
+jbe rel8, hint
+jc label
+jc_1 label
+jc label, hint
+jc_1 label, hint
+jc rel32
+jc rel32, hint
+jc rel8
+jc rel8, hint
+je label
+je_1 label
+je label, hint
+je_1 label, hint
+je rel32
+je rel32, hint
+je rel8
+je rel8, hint
+jecxz label
+jecxz label, hint
+jecxz rel8
+jecxz rel8, hint
+jg label
+jg_1 label
+jg label, hint
+jg_1 label, hint
+jg rel32
+jg rel32, hint
+jg rel8
+jg rel8, hint
+jge label
+jge_1 label
+jge label, hint
+jge_1 label, hint
+jge rel32
+jge rel32, hint
+jge rel8
+jge rel8, hint
+jl label
+jl_1 label
+jl label, hint
+jl_1 label, hint
+jl rel32
+jl rel32, hint
+jl rel8
+jl rel8, hint
+jle label
+jle_1 label
+jle label, hint
+jle_1 label, hint
+jle rel32
+jle rel32, hint
+jle rel8
+jle rel8, hint
+jmp farptr1616
+jmp farptr1632
+jmp farptr1664
+jmp label
+jmp_1 label
+jmp m64
+jmp r64
+jmp rel32
+jmp rel8
+jna label
+jna_1 label
+jna label, hint
+jna_1 label, hint
+jna rel32
+jna rel32, hint
+jna rel8
+jna rel8, hint
+jnae label
+jnae_1 label
+jnae label, hint
+jnae_1 label, hint
+jnae rel32
+jnae rel32, hint
+jnae rel8
+jnae rel8, hint
+jnb label
+jnb_1 label
+jnb label, hint
+jnb_1 label, hint
+jnb rel32
+jnb rel32, hint
+jnb rel8
+jnb rel8, hint
+jnbe label
+jnbe_1 label
+jnbe label, hint
+jnbe_1 label, hint
+jnbe rel32
+jnbe rel32, hint
+jnbe rel8
+jnbe rel8, hint
+jnc label
+jnc_1 label
+jnc label, hint
+jnc_1 label, hint
+jnc rel32
+jnc rel32, hint
+jnc rel8
+jnc rel8, hint
+jne label
+jne_1 label
+jne label, hint
+jne_1 label, hint
+jne rel32
+jne rel32, hint
+jne rel8
+jne rel8, hint
+jng label
+jng_1 label
+jng label, hint
+jng_1 label, hint
+jng rel32
+jng rel32, hint
+jng rel8
+jng rel8, hint
+jnge label
+jnge_1 label
+jnge label, hint
+jnge_1 label, hint
+jnge rel32
+jnge rel32, hint
+jnge rel8
+jnge rel8, hint
+jnl label
+jnl_1 label
+jnl label, hint
+jnl_1 label, hint
+jnl rel32
+jnl rel32, hint
+jnl rel8
+jnl rel8, hint
+jnle label
+jnle_1 label
+jnle label, hint
+jnle_1 label, hint
+jnle rel32
+jnle rel32, hint
+jnle rel8
+jnle rel8, hint
+jno label
+jno_1 label
+jno label, hint
+jno_1 label, hint
+jno rel32
+jno rel32, hint
+jno rel8
+jno rel8, hint
+jnp label
+jnp_1 label
+jnp label, hint
+jnp_1 label, hint
+jnp rel32
+jnp rel32, hint
+jnp rel8
+jnp rel8, hint
+jns label
+jns_1 label
+jns label, hint
+jns_1 label, hint
+jns rel32
+jns rel32, hint
+jns rel8
+jns rel8, hint
+jnz label
+jnz_1 label
+jnz label, hint
+jnz_1 label, hint
+jnz rel32
+jnz rel32, hint
+jnz rel8
+jnz rel8, hint
+jo label
+jo_1 label
+jo label, hint
+jo_1 label, hint
+jo rel32
+jo rel32, hint
+jo rel8
+jo rel8, hint
+jp label
+jp_1 label
+jp label, hint
+jp_1 label, hint
+jp rel32
+jp rel32, hint
+jp rel8
+jp rel8, hint
+jpe label
+jpe_1 label
+jpe label, hint
+jpe_1 label, hint
+jpe rel32
+jpe rel32, hint
+jpe rel8
+jpe rel8, hint
+jpo label
+jpo_1 label
+jpo label, hint
+jpo_1 label, hint
+jpo rel32
+jpo rel32, hint
+jpo rel8
+jpo rel8, hint
+jrcxz label
+jrcxz label, hint
+jrcxz rel8
+jrcxz rel8, hint
+js label
+js_1 label
+js label, hint
+js_1 label, hint
+js rel32
+js rel32, hint
+js rel8
+js rel8, hint
+jz label
+jz_1 label
+jz label, hint
+jz_1 label, hint
+jz rel32
+jz rel32, hint
+jz rel8
+jz rel8, hint
+lahf
+lar r16, m16
+lar r16, r16
+lar r32, m16
+lar r32, r32
+lar r64, m16
+lar r64, r32
+lddqu xmm, m128
+ldmxcsr m32
+lea r16, m16
+lea r16, m32
+lea r16, m64
+lea r32, m16
+lea r32, m32
+lea r32, m64
+lea r64, m16
+lea r64, m32
+lea r64, m64
+leave
+leave pref66
+lfence
+lfs r16, farptr1616
+lfs r32, farptr1632
+lfs r64, farptr1664
+lgs r16, farptr1616
+lgs r32, farptr1632
+lgs r64, farptr1664
+lock
+lods m16
+lods m32
+lods m64
+lods m8
+lodsb
+lodsd
+lodsq
+lodsw
+loop label
+loop rel8
+loope label
+loope rel8
+loopne label
+loopne rel8
+lsl r16, m16
+lsl r16, r16
+lsl r32, m16
+lsl r32, r32
+lsl r64, m16
+lsl r64, r32
+lss r16, farptr1616
+lss r32, farptr1632
+lss r64, farptr1664
+lzcnt r16, m16
+lzcnt r16, r16
+lzcnt r32, m32
+lzcnt r32, r32
+lzcnt r64, m64
+lzcnt r64, r64
+maskmovdqu xmm, xmm
+maskmovq mm, mm
+maxpd xmm, m128
+maxpd xmm, xmm
+maxps xmm, m128
+maxps xmm, xmm
+maxsd xmm, m64
+maxsd xmm, xmm
+maxss xmm, m32
+maxss xmm, xmm
+mfence
+minpd xmm, m128
+minpd xmm, xmm
+minps xmm, m128
+minps xmm, xmm
+minsd xmm, m64
+minsd xmm, xmm
+minss xmm, m32
+minss xmm, xmm
+monitor
+mov al, moffs8
+mov al, moffs8, prefrexw
+mov ax, moffs16
+mov eax, moffs32
+mov m16, imm16
+mov m16, r16
+mov m16, sreg
+mov m32, imm32
+mov m32, r32
+mov m64, imm32
+mov m64, r64
+mov m64, sreg
+mov m8, imm8
+mov m8, r8
+mov m8, rh
+mov moffs16, ax
+mov moffs32, eax
+mov moffs64, rax
+mov moffs8, al
+mov moffs8, al, prefrexw
+mov r16, imm16
+mov_1 r16, imm16
+mov r16, m16
+mov r16, r16
+mov_1 r16, r16
+mov r16, sreg
+mov r32, imm32
+mov_1 r32, imm32
+mov r32, m32
+mov r32, r32
+mov_1 r32, r32
+mov r64, imm32
+mov r64, imm64
+mov r64, m64
+mov r64, r64
+mov_1 r64, r64
+mov r64, sreg
+mov r8, imm8
+mov_1 r8, imm8
+mov r8, m8
+mov r8, r8
+mov_1 r8, r8
+mov r8, rh
+mov_1 r8, rh
+mov rax, moffs64
+mov rh, imm8
+mov_1 rh, imm8
+mov rh, m8
+mov rh, r8
+mov_1 rh, r8
+mov rh, rh
+mov_1 rh, rh
+mov sreg, m16
+mov sreg, m64
+mov sreg, r16
+mov sreg, r64
+movapd m128, xmm
+movapd xmm, m128
+movapd xmm, xmm
+movapd_1 xmm, xmm
+movaps m128, xmm
+movaps xmm, m128
+movaps xmm, xmm
+movaps_1 xmm, xmm
+movbe m16, r16
+movbe m32, r32
+movbe m64, r64
+movbe r16, m16
+movbe r32, m32
+movbe r64, m64
+movd m32, mm
+movd m32, xmm
+movd mm, m32
+movd mm, r32
+movd r32, mm
+movd r32, xmm
+movd xmm, m32
+movd xmm, r32
+movddup xmm, m64
+movddup xmm, xmm
+movdq2q mm, xmm
+movdqa m128, xmm
+movdqa xmm, m128
+movdqa xmm, xmm
+movdqa_1 xmm, xmm
+movdqu m128, xmm
+movdqu xmm, m128
+movdqu xmm, xmm
+movdqu_1 xmm, xmm
+movhlps xmm, xmm
+movhpd m64, xmm
+movhpd xmm, m64
+movhps m64, xmm
+movhps xmm, m64
+movlhps xmm, xmm
+movlpd m64, xmm
+movlpd xmm, m64
+movlps m64, xmm
+movlps xmm, m64
+movmskpd r32, xmm
+movmskpd r64, xmm
+movmskps r32, xmm
+movmskps r64, xmm
+movntdq m128, xmm
+movntdqa xmm, m128
+movnti m32, r32
+movnti m64, r64
+movntpd m128, xmm
+movntps m128, xmm
+movntq m64, mm
+movq m64, mm
+movq_1 m64, mm
+movq m64, xmm
+movq_1 m64, xmm
+movq mm, m64
+movq_1 mm, m64
+movq mm, mm
+movq_1 mm, mm
+movq mm, r64
+movq r64, mm
+movq r64, xmm
+movq xmm, m64
+movq_1 xmm, m64
+movq xmm, r64
+movq xmm, xmm
+movq_1 xmm, xmm
+movq2dq xmm, mm
+movs m16, m16
+movs m32, m32
+movs m64, m64
+movs m8, m8
+movsb
+movsd
+movsd m64, xmm
+movsd xmm, m64
+movsd xmm, xmm
+movsd_1 xmm, xmm
+movshdup xmm, m128
+movshdup xmm, xmm
+movsldup xmm, m128
+movsldup xmm, xmm
+movsq
+movss m32, xmm
+movss xmm, m32
+movss xmm, xmm
+movss_1 xmm, xmm
+movsw
+movsx r16, m8
+movsx r16, r8
+movsx r16, rh
+movsx r32, m16
+movsx r32, m8
+movsx r32, r16
+movsx r32, r8
+movsx r32, rh
+movsx r64, m16
+movsx r64, m8
+movsx r64, r16
+movsx r64, r8
+movsxd r64, m32
+movsxd r64, r32
+movupd m128, xmm
+movupd xmm, m128
+movupd xmm, xmm
+movupd_1 xmm, xmm
+movups m128, xmm
+movups xmm, m128
+movups xmm, xmm
+movups_1 xmm, xmm
+movzx r16, m8
+movzx r16, r8
+movzx r16, rh
+movzx r32, m16
+movzx r32, m8
+movzx r32, r16
+movzx r32, r8
+movzx r32, rh
+movzx r64, m16
+movzx r64, m8
+movzx r64, r16
+movzx r64, r8
+mpsadbw xmm, m128, imm8
+mpsadbw xmm, xmm, imm8
+mul m16
+mul m32
+mul m64
+mul m8
+mul r16
+mul r32
+mul r64
+mul r8
+mul rh
+mulpd xmm, m128
+mulpd xmm, xmm
+mulps xmm, m128
+mulps xmm, xmm
+mulsd xmm, m64
+mulsd xmm, xmm
+mulss xmm, m32
+mulss xmm, xmm
+mulx r32, r32, m32
+mulx r32, r32, r32
+mulx r64, r64, m64
+mulx r64, r64, r64
+mwait
+neg m16
+neg m32
+neg m64
+neg m8
+neg r16
+neg r32
+neg r64
+neg r8
+neg rh
+nop
+nop m16
+nop m32
+nop r16
+nop r32
+not_ m16
+not_ m32
+not_ m64
+not_ m8
+not_ r16
+not_ r32
+not_ r64
+not_ r8
+not_ rh
+or_ al, imm8
+or_ ax, imm16
+or_ eax, imm32
+or_ m16, imm16
+or_ m16, imm8
+or_ m16, r16
+or_ m32, imm32
+or_ m32, imm8
+or_ m32, r32
+or_ m64, imm32
+or_ m64, imm8
+or_ m64, r64
+or_ m8, imm8
+or_ m8, r8
+or_ m8, rh
+or_ r16, imm16
+or_ r16, imm8
+or_ r16, m16
+or_ r16, r16
+or__1 r16, r16
+or_ r32, imm32
+or_ r32, imm8
+or_ r32, m32
+or_ r32, r32
+or__1 r32, r32
+or_ r64, imm32
+or_ r64, imm8
+or_ r64, m64
+or_ r64, r64
+or__1 r64, r64
+or_ r8, imm8
+or_ r8, m8
+or_ r8, r8
+or__1 r8, r8
+or_ r8, rh
+or__1 r8, rh
+or_ rax, imm32
+or_ rh, imm8
+or_ rh, m8
+or_ rh, r8
+or__1 rh, r8
+or_ rh, rh
+or__1 rh, rh
+orpd xmm, m128
+orpd xmm, xmm
+orps xmm, m128
+orps xmm, xmm
+out dx, al
+out dx, ax
+out dx, eax
+out imm8, al
+out imm8, ax
+out imm8, eax
+outs dx, m16
+outs dx, m32
+outs dx, m8
+outsb
+outsd
+outsw
+pabsb mm, m64
+pabsb mm, mm
+pabsb xmm, m128
+pabsb xmm, xmm
+pabsd mm, m64
+pabsd mm, mm
+pabsd xmm, m128
+pabsd xmm, xmm
+pabsw mm, m64
+pabsw mm, mm
+pabsw xmm, m128
+pabsw xmm, xmm
+packssdw mm, m64
+packssdw mm, mm
+packssdw xmm, m128
+packssdw xmm, xmm
+packsswb mm, m64
+packsswb mm, mm
+packsswb xmm, m128
+packsswb xmm, xmm
+packusdw xmm, m128
+packusdw xmm, xmm
+packuswb mm, m64
+packuswb mm, mm
+packuswb xmm, m128
+packuswb xmm, xmm
+paddb mm, m64
+paddb mm, mm
+paddb xmm, m128
+paddb xmm, xmm
+paddd mm, m64
+paddd mm, mm
+paddd xmm, m128
+paddd xmm, xmm
+paddq mm, m64
+paddq mm, mm
+paddq xmm, m128
+paddq xmm, xmm
+paddsb mm, m64
+paddsb mm, mm
+paddsb xmm, m128
+paddsb xmm, xmm
+paddsw mm, m64
+paddsw mm, mm
+paddsw xmm, m128
+paddsw xmm, xmm
+paddusb mm, m64
+paddusb mm, mm
+paddusb xmm, m128
+paddusb xmm, xmm
+paddusw mm, m64
+paddusw mm, mm
+paddusw xmm, m128
+paddusw xmm, xmm
+paddw mm, m64
+paddw mm, mm
+paddw xmm, m128
+paddw xmm, xmm
+palignr mm, m64, imm8
+palignr mm, mm, imm8
+palignr xmm, m128, imm8
+palignr xmm, xmm, imm8
+pand mm, m64
+pand mm, mm
+pand xmm, m128
+pand xmm, xmm
+pandn mm, m64
+pandn mm, mm
+pandn xmm, m128
+pandn xmm, xmm
+pause
+pavgb mm, m64
+pavgb mm, mm
+pavgb xmm, m128
+pavgb xmm, xmm
+pavgw mm, m64
+pavgw mm, mm
+pavgw xmm, m128
+pavgw xmm, xmm
+pblendvb xmm, m128, xmm0
+pblendvb xmm, xmm, xmm0
+pblendw xmm, m128, imm8
+pblendw xmm, xmm, imm8
+pclmulqdq xmm, m128, imm8
+pclmulqdq xmm, xmm, imm8
+pcmpeqb mm, m64
+pcmpeqb mm, mm
+pcmpeqb xmm, m128
+pcmpeqb xmm, xmm
+pcmpeqd mm, m64
+pcmpeqd mm, mm
+pcmpeqd xmm, m128
+pcmpeqd xmm, xmm
+pcmpeqq xmm, m128
+pcmpeqq xmm, xmm
+pcmpeqw mm, m64
+pcmpeqw mm, mm
+pcmpeqw xmm, m128
+pcmpeqw xmm, xmm
+pcmpestri xmm, m128, imm8
+pcmpestri xmm, xmm, imm8
+pcmpestrm xmm, m128, imm8
+pcmpestrm xmm, xmm, imm8
+pcmpgtb mm, m64
+pcmpgtb mm, mm
+pcmpgtb xmm, m128
+pcmpgtb xmm, xmm
+pcmpgtd mm, m64
+pcmpgtd mm, mm
+pcmpgtd xmm, m128
+pcmpgtd xmm, xmm
+pcmpgtq xmm, m128
+pcmpgtq xmm, xmm
+pcmpgtw mm, m64
+pcmpgtw mm, mm
+pcmpgtw xmm, m128
+pcmpgtw xmm, xmm
+pcmpistri xmm, m128, imm8
+pcmpistri xmm, xmm, imm8
+pcmpistrm xmm, m128, imm8
+pcmpistrm xmm, xmm, imm8
+pdep r32, r32, m32
+pdep r32, r32, r32
+pdep r64, r64, m64
+pdep r64, r64, r64
+pext r32, r32, m32
+pext r32, r32, r32
+pext r64, r64, m64
+pext r64, r64, r64
+pextrb m8, xmm, imm8
+pextrb r32, xmm, imm8
+pextrb r64, xmm, imm8
+pextrd m32, xmm, imm8
+pextrd r32, xmm, imm8
+pextrq m64, xmm, imm8
+pextrq r64, xmm, imm8
+pextrw m16, xmm, imm8
+pextrw r32, mm, imm8
+pextrw r32, xmm, imm8
+pextrw_1 r32, xmm, imm8
+pextrw r64, mm, imm8
+pextrw r64, xmm, imm8
+pextrw_1 r64, xmm, imm8
+phaddd mm, m64
+phaddd mm, mm
+phaddd xmm, m128
+phaddd xmm, xmm
+phaddsw mm, m64
+phaddsw mm, mm
+phaddsw xmm, m128
+phaddsw xmm, xmm
+phaddw mm, m64
+phaddw mm, mm
+phaddw xmm, m128
+phaddw xmm, xmm
+phminposuw xmm, m128
+phminposuw xmm, xmm
+phsubd mm, m64
+phsubd mm, mm
+phsubd xmm, m128
+phsubd xmm, xmm
+phsubsw mm, m64
+phsubsw mm, mm
+phsubsw xmm, m128
+phsubsw xmm, xmm
+phsubw mm, m64
+phsubw mm, mm
+phsubw xmm, m128
+phsubw xmm, xmm
+pinsrb xmm, m8, imm8
+pinsrb xmm, r32, imm8
+pinsrd xmm, m32, imm8
+pinsrd xmm, r32, imm8
+pinsrw mm, m16, imm8
+pinsrw mm, r32, imm8
+pinsrw xmm, m16, imm8
+pinsrw xmm, r32, imm8
+pmaddubsw mm, m64
+pmaddubsw mm, mm
+pmaddubsw xmm, m128
+pmaddubsw xmm, xmm
+pmaddwd mm, m64
+pmaddwd mm, mm
+pmaddwd xmm, m128
+pmaddwd xmm, xmm
+pmaxsb xmm, m128
+pmaxsb xmm, xmm
+pmaxsd xmm, m128
+pmaxsd xmm, xmm
+pmaxsw mm, m64
+pmaxsw mm, mm
+pmaxsw xmm, m128
+pmaxsw xmm, xmm
+pmaxub mm, m64
+pmaxub mm, mm
+pmaxub xmm, m128
+pmaxub xmm, xmm
+pmaxud xmm, m128
+pmaxud xmm, xmm
+pmaxuw xmm, m128
+pmaxuw xmm, xmm
+pminsb xmm, m128
+pminsb xmm, xmm
+pminsd xmm, m128
+pminsd xmm, xmm
+pminsw mm, m64
+pminsw mm, mm
+pminsw xmm, m128
+pminsw xmm, xmm
+pminub mm, m64
+pminub mm, mm
+pminub xmm, m128
+pminub xmm, xmm
+pminud xmm, m128
+pminud xmm, xmm
+pminuw xmm, m128
+pminuw xmm, xmm
+pmovmskb r32, mm
+pmovmskb r32, xmm
+pmovmskb r64, mm
+pmovmskb r64, xmm
+pmovsxbd xmm, m32
+pmovsxbd xmm, xmm
+pmovsxbq xmm, m16
+pmovsxbq xmm, xmm
+pmovsxbw xmm, m64
+pmovsxbw xmm, xmm
+pmovsxdq xmm, m64
+pmovsxdq xmm, xmm
+pmovsxwd xmm, m64
+pmovsxwd xmm, xmm
+pmovsxwq xmm, m32
+pmovsxwq xmm, xmm
+pmovzxbd xmm, m32
+pmovzxbd xmm, xmm
+pmovzxbq xmm, m16
+pmovzxbq xmm, xmm
+pmovzxbw xmm, m64
+pmovzxbw xmm, xmm
+pmovzxdq xmm, m64
+pmovzxdq xmm, xmm
+pmovzxwd xmm, m64
+pmovzxwd xmm, xmm
+pmovzxwq xmm, m32
+pmovzxwq xmm, xmm
+pmuldq xmm, m128
+pmuldq xmm, xmm
+pmulhrsw mm, m64
+pmulhrsw mm, mm
+pmulhrsw xmm, m128
+pmulhrsw xmm, xmm
+pmulhuw mm, m64
+pmulhuw mm, mm
+pmulhuw xmm, m128
+pmulhuw xmm, xmm
+pmulhw mm, m64
+pmulhw mm, mm
+pmulhw xmm, m128
+pmulhw xmm, xmm
+pmulld xmm, m128
+pmulld xmm, xmm
+pmullw mm, m64
+pmullw mm, mm
+pmullw xmm, m128
+pmullw xmm, xmm
+pmuludq mm, m64
+pmuludq mm, mm
+pmuludq xmm, m128
+pmuludq xmm, xmm
+pop fs
+pop fs, pref66
+pop gs
+pop gs, pref66
+pop m16
+pop m64
+pop r16
+pop_1 r16
+pop r64
+pop_1 r64
+popcnt r16, m16
+popcnt r16, r16
+popcnt r32, m32
+popcnt r32, r32
+popcnt r64, m64
+popcnt r64, r64
+popf
+popfq
+por mm, m64
+por mm, mm
+por xmm, m128
+por xmm, xmm
+prefetchnta m8
+prefetcht0 m8
+prefetcht1 m8
+prefetcht2 m8
+psadbw mm, m64
+psadbw mm, mm
+psadbw xmm, m128
+psadbw xmm, xmm
+pshufb mm, m64
+pshufb mm, mm
+pshufb xmm, m128
+pshufb xmm, xmm
+pshufd xmm, m128, imm8
+pshufd xmm, xmm, imm8
+pshufhw xmm, m128, imm8
+pshufhw xmm, xmm, imm8
+pshuflw xmm, m128, imm8
+pshuflw xmm, xmm, imm8
+pshufw mm, m64, imm8
+pshufw mm, mm, imm8
+psignb mm, m64
+psignb mm, mm
+psignb xmm, m128
+psignb xmm, xmm
+psignd mm, m64
+psignd mm, mm
+psignd xmm, m128
+psignd xmm, xmm
+psignw mm, m64
+psignw mm, mm
+psignw xmm, m128
+psignw xmm, xmm
+pslld mm, imm8
+pslld mm, m64
+pslld mm, mm
+pslld xmm, imm8
+pslld xmm, m128
+pslld xmm, xmm
+pslldq xmm, imm8
+psllq mm, imm8
+psllq mm, m64
+psllq mm, mm
+psllq xmm, imm8
+psllq xmm, m128
+psllq xmm, xmm
+psllw mm, imm8
+psllw mm, m64
+psllw mm, mm
+psllw xmm, imm8
+psllw xmm, m128
+psllw xmm, xmm
+psrad mm, imm8
+psrad mm, m64
+psrad mm, mm
+psrad xmm, imm8
+psrad xmm, m128
+psrad xmm, xmm
+psraw mm, imm8
+psraw mm, m64
+psraw mm, mm
+psraw xmm, imm8
+psraw xmm, m128
+psraw xmm, xmm
+psrld mm, imm8
+psrld mm, m64
+psrld mm, mm
+psrld xmm, imm8
+psrld xmm, m128
+psrld xmm, xmm
+psrldq xmm, imm8
+psrlq mm, imm8
+psrlq mm, m64
+psrlq mm, mm
+psrlq xmm, imm8
+psrlq xmm, m128
+psrlq xmm, xmm
+psrlw mm, imm8
+psrlw mm, m64
+psrlw mm, mm
+psrlw xmm, imm8
+psrlw xmm, m128
+psrlw xmm, xmm
+psubb mm, m64
+psubb mm, mm
+psubb xmm, m128
+psubb xmm, xmm
+psubd mm, m64
+psubd mm, mm
+psubd xmm, m128
+psubd xmm, xmm
+psubq mm, m64
+psubq mm, mm
+psubq xmm, m128
+psubq xmm, xmm
+psubsb mm, m64
+psubsb mm, mm
+psubsb xmm, m128
+psubsb xmm, xmm
+psubsw mm, m64
+psubsw mm, mm
+psubsw xmm, m128
+psubsw xmm, xmm
+psubusb mm, m64
+psubusb mm, mm
+psubusb xmm, m128
+psubusb xmm, xmm
+psubusw mm, m64
+psubusw mm, mm
+psubusw xmm, m128
+psubusw xmm, xmm
+psubw mm, m64
+psubw mm, mm
+psubw xmm, m128
+psubw xmm, xmm
+ptest xmm, m128
+ptest xmm, xmm
+punpckhbw mm, m64
+punpckhbw mm, mm
+punpckhbw xmm, m128
+punpckhbw xmm, xmm
+punpckhdq mm, m64
+punpckhdq mm, mm
+punpckhdq xmm, m128
+punpckhdq xmm, xmm
+punpckhqdq xmm, m128
+punpckhqdq xmm, xmm
+punpckhwd mm, m64
+punpckhwd mm, mm
+punpckhwd xmm, m128
+punpckhwd xmm, xmm
+punpcklbw mm, m32
+punpcklbw mm, mm
+punpcklbw xmm, m128
+punpcklbw xmm, xmm
+punpckldq mm, m32
+punpckldq mm, mm
+punpckldq xmm, m128
+punpckldq xmm, xmm
+punpcklqdq xmm, m128
+punpcklqdq xmm, xmm
+punpcklwd mm, m32
+punpcklwd mm, mm
+punpcklwd xmm, m128
+punpcklwd xmm, xmm
+push fs
+push gs
+push m16
+push m64
+push r16
+push_1 r16
+push r64
+push_1 r64
+pushf
+pushfq
+pushq imm16
+pushq imm32
+pushq imm8
+pushw imm16
+pushw imm8
+pxor mm, m64
+pxor mm, mm
+pxor xmm, m128
+pxor xmm, xmm
+rcl m16, cl
+rcl m16, imm8
+rcl m16, one
+rcl m32, cl
+rcl m32, imm8
+rcl m32, one
+rcl m64, cl
+rcl m64, imm8
+rcl m64, one
+rcl m8, cl
+rcl m8, imm8
+rcl m8, one
+rcl r16, cl
+rcl r16, imm8
+rcl r16, one
+rcl r32, cl
+rcl r32, imm8
+rcl r32, one
+rcl r64, cl
+rcl r64, imm8
+rcl r64, one
+rcl r8, cl
+rcl r8, imm8
+rcl r8, one
+rcl rh, cl
+rcl rh, imm8
+rcl rh, one
+rcpps xmm, m128
+rcpps xmm, xmm
+rcpss xmm, m32
+rcpss xmm, xmm
+rcr m16, cl
+rcr m16, imm8
+rcr m16, one
+rcr m32, cl
+rcr m32, imm8
+rcr m32, one
+rcr m64, cl
+rcr m64, imm8
+rcr m64, one
+rcr m8, cl
+rcr m8, imm8
+rcr m8, one
+rcr r16, cl
+rcr r16, imm8
+rcr r16, one
+rcr r32, cl
+rcr r32, imm8
+rcr r32, one
+rcr r64, cl
+rcr r64, imm8
+rcr r64, one
+rcr r8, cl
+rcr r8, imm8
+rcr r8, one
+rcr rh, cl
+rcr rh, imm8
+rcr rh, one
+rdfsbase r32
+rdfsbase r64
+rdgsbase r32
+rdgsbase r64
+rdrand r16
+rdrand r32
+rdrand r64
+rep_ins m16, dx
+rep_ins m32, dx
+rep_ins m64, dx
+rep_ins m8, dx
+rep_ins_1 m8, dx
+rep_lods al
+rep_lods_1 al
+rep_lods ax
+rep_lods eax
+rep_lods rax
+rep_movs m16, m16
+rep_movs m32, m32
+rep_movs m64, m64
+rep_movs m8, m8
+rep_movs_1 m8, m8
+rep_outs dx, m16
+rep_outs dx, m32
+rep_outs dx, m64
+rep_outs dx, m8
+rep_outs_1 dx, m8
+rep_stos m16
+rep_stos m32
+rep_stos m64
+rep_stos m8
+rep_stos_1 m8
+repe_cmps m16, m16
+repe_cmps m32, m32
+repe_cmps m64, m64
+repe_cmps m8, m8
+repe_cmps_1 m8, m8
+repe_scas m16
+repe_scas m32
+repe_scas m64
+repe_scas m8
+repe_scas_1 m8
+repne_cmps m16, m16
+repne_cmps m32, m32
+repne_cmps m64, m64
+repne_cmps m8, m8
+repne_cmps_1 m8, m8
+repne_scas m16
+repne_scas m32
+repne_scas m64
+repne_scas m8
+repne_scas_1 m8
+ret
+ret far
+ret imm16
+ret imm16, far
+rol m16, cl
+rol m16, imm8
+rol m16, one
+rol m32, cl
+rol m32, imm8
+rol m32, one
+rol m64, cl
+rol m64, imm8
+rol m64, one
+rol m8, cl
+rol m8, imm8
+rol m8, one
+rol r16, cl
+rol r16, imm8
+rol r16, one
+rol r32, cl
+rol r32, imm8
+rol r32, one
+rol r64, cl
+rol r64, imm8
+rol r64, one
+rol r8, cl
+rol r8, imm8
+rol r8, one
+rol rh, cl
+rol rh, imm8
+rol rh, one
+ror m16, cl
+ror m16, imm8
+ror m16, one
+ror m32, cl
+ror m32, imm8
+ror m32, one
+ror m64, cl
+ror m64, imm8
+ror m64, one
+ror m8, cl
+ror m8, imm8
+ror m8, one
+ror r16, cl
+ror r16, imm8
+ror r16, one
+ror r32, cl
+ror r32, imm8
+ror r32, one
+ror r64, cl
+ror r64, imm8
+ror r64, one
+ror r8, cl
+ror r8, imm8
+ror r8, one
+ror rh, cl
+ror rh, imm8
+ror rh, one
+rorx r32, m32, imm8
+rorx r32, r32, imm8
+rorx r64, m64, imm8
+rorx r64, r64, imm8
+roundpd xmm, m128, imm8
+roundpd xmm, xmm, imm8
+roundps xmm, m128, imm8
+roundps xmm, xmm, imm8
+roundsd xmm, m64, imm8
+roundsd xmm, xmm, imm8
+roundss xmm, m32, imm8
+roundss xmm, xmm, imm8
+rsqrtps xmm, m128
+rsqrtps xmm, xmm
+rsqrtss xmm, m32
+rsqrtss xmm, xmm
+sahf
+sal m16, cl
+sal m16, imm8
+sal m16, one
+sal m32, cl
+sal m32, imm8
+sal m32, one
+sal m64, cl
+sal m64, imm8
+sal m64, one
+sal m8, cl
+sal m8, imm8
+sal m8, one
+sal r16, cl
+sal r16, imm8
+sal r16, one
+sal r32, cl
+sal r32, imm8
+sal r32, one
+sal r64, cl
+sal r64, imm8
+sal r64, one
+sal r8, cl
+sal r8, imm8
+sal r8, one
+sal rh, cl
+sal rh, imm8
+sal rh, one
+sar m16, cl
+sar m16, imm8
+sar m16, one
+sar m32, cl
+sar m32, imm8
+sar m32, one
+sar m64, cl
+sar m64, imm8
+sar m64, one
+sar m8, cl
+sar m8, imm8
+sar m8, one
+sar r16, cl
+sar r16, imm8
+sar r16, one
+sar r32, cl
+sar r32, imm8
+sar r32, one
+sar r64, cl
+sar r64, imm8
+sar r64, one
+sar r8, cl
+sar r8, imm8
+sar r8, one
+sar rh, cl
+sar rh, imm8
+sar rh, one
+sarx r32, m32, r32
+sarx r32, r32, r32
+sarx r64, m64, r64
+sarx r64, r64, r64
+sbb al, imm8
+sbb ax, imm16
+sbb eax, imm32
+sbb m16, imm16
+sbb m16, imm8
+sbb m16, r16
+sbb m32, imm32
+sbb m32, imm8
+sbb m32, r32
+sbb m64, imm32
+sbb m64, imm8
+sbb m64, r64
+sbb m8, imm8
+sbb m8, r8
+sbb m8, rh
+sbb r16, imm16
+sbb r16, imm8
+sbb r16, m16
+sbb r16, r16
+sbb_1 r16, r16
+sbb r32, imm32
+sbb r32, imm8
+sbb r32, m32
+sbb r32, r32
+sbb_1 r32, r32
+sbb r64, imm32
+sbb r64, imm8
+sbb r64, m64
+sbb r64, r64
+sbb_1 r64, r64
+sbb r8, imm8
+sbb r8, m8
+sbb r8, r8
+sbb_1 r8, r8
+sbb r8, rh
+sbb_1 r8, rh
+sbb rax, imm32
+sbb rh, imm8
+sbb rh, m8
+sbb rh, r8
+sbb_1 rh, r8
+sbb rh, rh
+sbb_1 rh, rh
+scas m16
+scas m32
+scas m64
+scas m8
+scasb
+scasd
+scasq
+scasw
+seta m8
+seta r8
+seta rh
+setae m8
+setae r8
+setae rh
+setb m8
+setb r8
+setb rh
+setbe m8
+setbe r8
+setbe rh
+setc m8
+setc r8
+setc rh
+sete m8
+sete r8
+sete rh
+setg m8
+setg r8
+setg rh
+setge m8
+setge r8
+setge rh
+setl m8
+setl r8
+setl rh
+setle m8
+setle r8
+setle rh
+setna m8
+setna r8
+setna rh
+setnae m8
+setnae r8
+setnae rh
+setnb m8
+setnb r8
+setnb rh
+setnbe m8
+setnbe r8
+setnbe rh
+setnc m8
+setnc r8
+setnc rh
+setne m8
+setne r8
+setne rh
+setng m8
+setng r8
+setng rh
+setnge m8
+setnge r8
+setnge rh
+setnl m8
+setnl r8
+setnl rh
+setnle m8
+setnle r8
+setnle rh
+setno m8
+setno r8
+setno rh
+setnp m8
+setnp r8
+setnp rh
+setns m8
+setns r8
+setns rh
+setnz m8
+setnz r8
+setnz rh
+seto m8
+seto r8
+seto rh
+setp m8
+setp r8
+setp rh
+setpe m8
+setpe r8
+setpe rh
+setpo m8
+setpo r8
+setpo rh
+sets m8
+sets r8
+sets rh
+setz m8
+setz r8
+setz rh
+sfence
+shl m16, cl
+shl m16, imm8
+shl m16, one
+shl m32, cl
+shl m32, imm8
+shl m32, one
+shl m64, cl
+shl m64, imm8
+shl m64, one
+shl m8, cl
+shl m8, imm8
+shl m8, one
+shl r16, cl
+shl r16, imm8
+shl r16, one
+shl r32, cl
+shl r32, imm8
+shl r32, one
+shl r64, cl
+shl r64, imm8
+shl r64, one
+shl r8, cl
+shl r8, imm8
+shl r8, one
+shl rh, cl
+shl rh, imm8
+shl rh, one
+shld m16, r16, cl
+shld m16, r16, imm8
+shld m32, r32, cl
+shld m32, r32, imm8
+shld m64, r64, cl
+shld m64, r64, imm8
+shld r16, r16, cl
+shld r16, r16, imm8
+shld r32, r32, cl
+shld r32, r32, imm8
+shld r64, r64, cl
+shld r64, r64, imm8
+shlx r32, m32, r32
+shlx r32, r32, r32
+shlx r64, m64, r64
+shlx r64, r64, r64
+shr m16, cl
+shr m16, imm8
+shr m16, one
+shr m32, cl
+shr m32, imm8
+shr m32, one
+shr m64, cl
+shr m64, imm8
+shr m64, one
+shr m8, cl
+shr m8, imm8
+shr m8, one
+shr r16, cl
+shr r16, imm8
+shr r16, one
+shr r32, cl
+shr r32, imm8
+shr r32, one
+shr r64, cl
+shr r64, imm8
+shr r64, one
+shr r8, cl
+shr r8, imm8
+shr r8, one
+shr rh, cl
+shr rh, imm8
+shr rh, one
+shrd m16, r16, cl
+shrd m16, r16, imm8
+shrd m32, r32, cl
+shrd m32, r32, imm8
+shrd m64, r64, cl
+shrd m64, r64, imm8
+shrd r16, r16, cl
+shrd r16, r16, imm8
+shrd r32, r32, cl
+shrd r32, r32, imm8
+shrd r64, r64, cl
+shrd r64, r64, imm8
+shrx r32, m32, r32
+shrx r32, r32, r32
+shrx r64, m64, r64
+shrx r64, r64, r64
+shufpd xmm, m128, imm8
+shufpd xmm, xmm, imm8
+shufps xmm, m128, imm8
+shufps xmm, xmm, imm8
+sqrtpd xmm, m128
+sqrtpd xmm, xmm
+sqrtps xmm, m128
+sqrtps xmm, xmm
+sqrtsd xmm, m64
+sqrtsd xmm, xmm
+sqrtss xmm, m32
+sqrtss xmm, xmm
+stc
+std_
+sti
+stmxcsr m32
+stos m16
+stos m32
+stos m64
+stos m8
+stosb
+stosd
+stosq
+stosw
+sub al, imm8
+sub ax, imm16
+sub eax, imm32
+sub m16, imm16
+sub m16, imm8
+sub m16, r16
+sub m32, imm32
+sub m32, imm8
+sub m32, r32
+sub m64, imm32
+sub m64, imm8
+sub m64, r64
+sub m8, imm8
+sub m8, r8
+sub m8, rh
+sub r16, imm16
+sub r16, imm8
+sub r16, m16
+sub r16, r16
+sub_1 r16, r16
+sub r32, imm32
+sub r32, imm8
+sub r32, m32
+sub r32, r32
+sub_1 r32, r32
+sub r64, imm32
+sub r64, imm8
+sub r64, m64
+sub r64, r64
+sub_1 r64, r64
+sub r8, imm8
+sub r8, m8
+sub r8, r8
+sub_1 r8, r8
+sub r8, rh
+sub_1 r8, rh
+sub rax, imm32
+sub rh, imm8
+sub rh, m8
+sub rh, r8
+sub_1 rh, r8
+sub rh, rh
+sub_1 rh, rh
+subpd xmm, m128
+subpd xmm, xmm
+subps xmm, m128
+subps xmm, xmm
+subsd xmm, m64
+subsd xmm, xmm
+subss xmm, m32
+subss xmm, xmm
+swapgs
+syscall
+sysenter
+sysexit
+sysexit prefrexw
+sysret
+sysret prefrexw
+test al, imm8
+test ax, imm16
+test eax, imm32
+test m16, imm16
+test m16, r16
+test m32, imm32
+test m32, r32
+test m64, imm32
+test m64, r64
+test m8, imm8
+test m8, r8
+test m8, rh
+test r16, imm16
+test r16, r16
+test r32, imm32
+test r32, r32
+test r64, imm32
+test r64, r64
+test r8, imm8
+test r8, r8
+test r8, rh
+test rax, imm32
+test rh, imm8
+test rh, r8
+test rh, rh
+tzcnt r16, m16
+tzcnt r16, r16
+tzcnt r32, m32
+tzcnt r32, r32
+tzcnt r64, m64
+tzcnt r64, r64
+ucomisd xmm, m64
+ucomisd xmm, xmm
+ucomiss xmm, m32
+ucomiss xmm, xmm
+ud2
+unpckhpd xmm, m128
+unpckhpd xmm, xmm
+unpckhps xmm, m128
+unpckhps xmm, xmm
+unpcklpd xmm, m128
+unpcklpd xmm, xmm
+unpcklps xmm, m128
+unpcklps xmm, xmm
+vaddpd xmm, xmm, m128
+vaddpd xmm, xmm, xmm
+vaddpd ymm, ymm, m256
+vaddpd ymm, ymm, ymm
+vaddps xmm, xmm, m128
+vaddps xmm, xmm, xmm
+vaddps ymm, ymm, m256
+vaddps ymm, ymm, ymm
+vaddsd xmm, xmm, m64
+vaddsd xmm, xmm, xmm
+vaddss xmm, xmm, m32
+vaddss xmm, xmm, xmm
+vaddsubpd xmm, xmm, m128
+vaddsubpd xmm, xmm, xmm
+vaddsubpd ymm, ymm, m256
+vaddsubpd ymm, ymm, ymm
+vaddsubps xmm, xmm, m128
+vaddsubps xmm, xmm, xmm
+vaddsubps ymm, ymm, m256
+vaddsubps ymm, ymm, ymm
+vaesdec xmm, xmm, m128
+vaesdec xmm, xmm, xmm
+vaesdeclast xmm, xmm, m128
+vaesdeclast xmm, xmm, xmm
+vaesenc xmm, xmm, m128
+vaesenc xmm, xmm, xmm
+vaesenclast xmm, xmm, m128
+vaesenclast xmm, xmm, xmm
+vaesimc xmm, m128
+vaesimc xmm, xmm
+vaeskeygenassist xmm, m128, imm8
+vaeskeygenassist xmm, xmm, imm8
+vandnpd xmm, xmm, m128
+vandnpd xmm, xmm, xmm
+vandnpd ymm, ymm, m256
+vandnpd ymm, ymm, ymm
+vandnps xmm, xmm, m128
+vandnps xmm, xmm, xmm
+vandnps ymm, ymm, m256
+vandnps ymm, ymm, ymm
+vandpd xmm, xmm, m128
+vandpd xmm, xmm, xmm
+vandpd ymm, ymm, m256
+vandpd ymm, ymm, ymm
+vandps xmm, xmm, m128
+vandps xmm, xmm, xmm
+vandps ymm, ymm, m256
+vandps ymm, ymm, ymm
+vblendpd xmm, xmm, m128, imm8
+vblendpd xmm, xmm, xmm, imm8
+vblendpd ymm, ymm, m256, imm8
+vblendpd ymm, ymm, ymm, imm8
+vblendps xmm, xmm, m128, imm8
+vblendps xmm, xmm, xmm, imm8
+vblendps ymm, ymm, m256, imm8
+vblendps ymm, ymm, ymm, imm8
+vblendvpd xmm, xmm, m128, xmm
+vblendvpd xmm, xmm, xmm, xmm
+vblendvpd ymm, ymm, m256, ymm
+vblendvpd ymm, ymm, ymm, ymm
+vblendvps xmm, xmm, m128, xmm
+vblendvps xmm, xmm, xmm, xmm
+vblendvps ymm, ymm, m256, ymm
+vblendvps ymm, ymm, ymm, ymm
+vbroadcastf128 ymm, m128
+vbroadcasti128 ymm, m128
+vbroadcastsd ymm, m64
+vbroadcastsd ymm, xmm
+vbroadcastss xmm, m32
+vbroadcastss xmm, xmm
+vbroadcastss ymm, m32
+vbroadcastss ymm, xmm
+vcmppd xmm, xmm, m128, imm8
+vcmppd xmm, xmm, xmm, imm8
+vcmppd ymm, ymm, m256, imm8
+vcmppd ymm, ymm, ymm, imm8
+vcmpps xmm, xmm, m128, imm8
+vcmpps xmm, xmm, xmm, imm8
+vcmpps ymm, ymm, m256, imm8
+vcmpps ymm, ymm, ymm, imm8
+vcmpsd xmm, xmm, m64, imm8
+vcmpsd xmm, xmm, xmm, imm8
+vcmpss xmm, xmm, m32, imm8
+vcmpss xmm, xmm, xmm, imm8
+vcomisd xmm, m64
+vcomisd xmm, xmm
+vcomiss xmm, m32
+vcomiss xmm, xmm
+vcvtdq2pd xmm, m64
+vcvtdq2pd xmm, xmm
+vcvtdq2pd ymm, m128
+vcvtdq2pd ymm, xmm
+vcvtdq2ps xmm, m128
+vcvtdq2ps xmm, xmm
+vcvtdq2ps ymm, m256
+vcvtdq2ps ymm, ymm
+vcvtpd2dq xmm, m128
+vcvtpd2dq xmm, m256
+vcvtpd2dq xmm, xmm
+vcvtpd2dq xmm, ymm
+vcvtpd2ps xmm, m128
+vcvtpd2ps xmm, m256
+vcvtpd2ps xmm, xmm
+vcvtpd2ps xmm, ymm
+vcvtph2ps xmm, m64
+vcvtph2ps xmm, xmm
+vcvtph2ps ymm, m128
+vcvtph2ps ymm, xmm
+vcvtps2dq xmm, m128
+vcvtps2dq xmm, xmm
+vcvtps2dq ymm, m256
+vcvtps2dq ymm, ymm
+vcvtps2pd xmm, m64
+vcvtps2pd xmm, xmm
+vcvtps2pd ymm, m128
+vcvtps2pd ymm, xmm
+vcvtps2ph m128, ymm, imm8
+vcvtps2ph m64, xmm, imm8
+vcvtps2ph xmm, xmm, imm8
+vcvtps2ph xmm, ymm, imm8
+vcvtsd2si r32, m64
+vcvtsd2si r32, xmm
+vcvtsd2si r64, m64
+vcvtsd2si r64, xmm
+vcvtsd2ss xmm, xmm, m64
+vcvtsd2ss xmm, xmm, xmm
+vcvtsi2sd xmm, xmm, m32
+vcvtsi2sd xmm, xmm, m64
+vcvtsi2sd xmm, xmm, r32
+vcvtsi2sd xmm, xmm, r64
+vcvtsi2ss xmm, xmm, m32
+vcvtsi2ss xmm, xmm, m64
+vcvtsi2ss xmm, xmm, r32
+vcvtsi2ss xmm, xmm, r64
+vcvtss2sd xmm, xmm, m32
+vcvtss2sd xmm, xmm, xmm
+vcvtss2si r32, m32
+vcvtss2si r32, xmm
+vcvtss2si r64, m32
+vcvtss2si r64, xmm
+vcvttpd2dq xmm, m128
+vcvttpd2dq xmm, m256
+vcvttpd2dq xmm, xmm
+vcvttpd2dq xmm, ymm
+vcvttps2dq xmm, m128
+vcvttps2dq xmm, xmm
+vcvttps2dq ymm, m256
+vcvttps2dq ymm, ymm
+vcvttsd2si r32, m64
+vcvttsd2si r32, xmm
+vcvttsd2si r64, m64
+vcvttsd2si r64, xmm
+vcvttss2si r32, m32
+vcvttss2si r32, xmm
+vcvttss2si r64, m32
+vcvttss2si r64, xmm
+vdivpd xmm, xmm, m128
+vdivpd xmm, xmm, xmm
+vdivpd ymm, ymm, m256
+vdivpd ymm, ymm, ymm
+vdivps xmm, xmm, m128
+vdivps xmm, xmm, xmm
+vdivps ymm, ymm, m256
+vdivps ymm, ymm, ymm
+vdivsd xmm, xmm, m64
+vdivsd xmm, xmm, xmm
+vdivss xmm, xmm, m32
+vdivss xmm, xmm, xmm
+vdppd xmm, xmm, m128, imm8
+vdppd xmm, xmm, xmm, imm8
+vdpps xmm, xmm, m128, imm8
+vdpps xmm, xmm, xmm, imm8
+vdpps ymm, ymm, m256, imm8
+vdpps ymm, ymm, ymm, imm8
+verr m16
+verr r16
+verw m16
+verw r16
+vextractf128 m128, ymm, imm8
+vextractf128 xmm, ymm, imm8
+vextracti128 m128, ymm, imm8
+vextracti128 xmm, ymm, imm8
+vextractps m32, xmm, imm8
+vextractps r32, xmm, imm8
+vfmadd132pd xmm, xmm, m128
+vfmadd132pd xmm, xmm, xmm
+vfmadd132pd ymm, ymm, m256
+vfmadd132pd ymm, ymm, ymm
+vfmadd132ps xmm, xmm, m128
+vfmadd132ps xmm, xmm, xmm
+vfmadd132ps ymm, ymm, m256
+vfmadd132ps ymm, ymm, ymm
+vfmadd132sd xmm, xmm, m64
+vfmadd132sd xmm, xmm, xmm
+vfmadd132ss xmm, xmm, m32
+vfmadd132ss xmm, xmm, xmm
+vfmadd213pd xmm, xmm, m128
+vfmadd213pd xmm, xmm, xmm
+vfmadd213pd ymm, ymm, m256
+vfmadd213pd ymm, ymm, ymm
+vfmadd213ps xmm, xmm, m128
+vfmadd213ps xmm, xmm, xmm
+vfmadd213ps ymm, ymm, m256
+vfmadd213ps ymm, ymm, ymm
+vfmadd213sd xmm, xmm, m64
+vfmadd213sd xmm, xmm, xmm
+vfmadd213ss xmm, xmm, m32
+vfmadd213ss xmm, xmm, xmm
+vfmadd231pd xmm, xmm, m128
+vfmadd231pd xmm, xmm, xmm
+vfmadd231pd ymm, ymm, m256
+vfmadd231pd ymm, ymm, ymm
+vfmadd231ps xmm, xmm, m128
+vfmadd231ps xmm, xmm, xmm
+vfmadd231ps ymm, ymm, m256
+vfmadd231ps ymm, ymm, ymm
+vfmadd231sd xmm, xmm, m64
+vfmadd231sd xmm, xmm, xmm
+vfmadd231ss xmm, xmm, m32
+vfmadd231ss xmm, xmm, xmm
+vfmaddsub132pd xmm, xmm, m128
+vfmaddsub132pd xmm, xmm, xmm
+vfmaddsub132pd ymm, ymm, m256
+vfmaddsub132pd ymm, ymm, ymm
+vfmaddsub132ps xmm, xmm, m128
+vfmaddsub132ps xmm, xmm, xmm
+vfmaddsub132ps ymm, ymm, m256
+vfmaddsub132ps ymm, ymm, ymm
+vfmaddsub213pd xmm, xmm, m128
+vfmaddsub213pd xmm, xmm, xmm
+vfmaddsub213pd ymm, ymm, m256
+vfmaddsub213pd ymm, ymm, ymm
+vfmaddsub213ps xmm, xmm, m128
+vfmaddsub213ps xmm, xmm, xmm
+vfmaddsub213ps ymm, ymm, m256
+vfmaddsub213ps ymm, ymm, ymm
+vfmaddsub231pd xmm, xmm, m128
+vfmaddsub231pd xmm, xmm, xmm
+vfmaddsub231pd ymm, ymm, m256
+vfmaddsub231pd ymm, ymm, ymm
+vfmaddsub231ps xmm, xmm, m128
+vfmaddsub231ps xmm, xmm, xmm
+vfmaddsub231ps ymm, ymm, m256
+vfmaddsub231ps ymm, ymm, ymm
+vfmsub132pd xmm, xmm, m128
+vfmsub132pd xmm, xmm, xmm
+vfmsub132pd ymm, ymm, m256
+vfmsub132pd ymm, ymm, ymm
+vfmsub132ps xmm, xmm, m128
+vfmsub132ps xmm, xmm, xmm
+vfmsub132ps ymm, ymm, m256
+vfmsub132ps ymm, ymm, ymm
+vfmsub132sd xmm, xmm, m64
+vfmsub132sd xmm, xmm, xmm
+vfmsub132ss xmm, xmm, m32
+vfmsub132ss xmm, xmm, xmm
+vfmsub213pd xmm, xmm, m128
+vfmsub213pd xmm, xmm, xmm
+vfmsub213pd ymm, ymm, m256
+vfmsub213pd ymm, ymm, ymm
+vfmsub213ps xmm, xmm, m128
+vfmsub213ps xmm, xmm, xmm
+vfmsub213ps ymm, ymm, m256
+vfmsub213ps ymm, ymm, ymm
+vfmsub213sd xmm, xmm, m64
+vfmsub213sd xmm, xmm, xmm
+vfmsub213ss xmm, xmm, m32
+vfmsub213ss xmm, xmm, xmm
+vfmsub231pd xmm, xmm, m128
+vfmsub231pd xmm, xmm, xmm
+vfmsub231pd ymm, ymm, m256
+vfmsub231pd ymm, ymm, ymm
+vfmsub231ps xmm, xmm, m128
+vfmsub231ps xmm, xmm, xmm
+vfmsub231ps ymm, ymm, m256
+vfmsub231ps ymm, ymm, ymm
+vfmsub231sd xmm, xmm, m64
+vfmsub231sd xmm, xmm, xmm
+vfmsub231ss xmm, xmm, m32
+vfmsub231ss xmm, xmm, xmm
+vfmsubadd132pd xmm, xmm, m128
+vfmsubadd132pd xmm, xmm, xmm
+vfmsubadd132pd ymm, ymm, m256
+vfmsubadd132pd ymm, ymm, ymm
+vfmsubadd132ps xmm, xmm, m128
+vfmsubadd132ps xmm, xmm, xmm
+vfmsubadd132ps ymm, ymm, m256
+vfmsubadd132ps ymm, ymm, ymm
+vfmsubadd213pd xmm, xmm, m128
+vfmsubadd213pd xmm, xmm, xmm
+vfmsubadd213pd ymm, ymm, m256
+vfmsubadd213pd ymm, ymm, ymm
+vfmsubadd213ps xmm, xmm, m128
+vfmsubadd213ps xmm, xmm, xmm
+vfmsubadd213ps ymm, ymm, m256
+vfmsubadd213ps ymm, ymm, ymm
+vfmsubadd231pd xmm, xmm, m128
+vfmsubadd231pd xmm, xmm, xmm
+vfmsubadd231pd ymm, ymm, m256
+vfmsubadd231pd ymm, ymm, ymm
+vfmsubadd231ps xmm, xmm, m128
+vfmsubadd231ps xmm, xmm, xmm
+vfmsubadd231ps ymm, ymm, m256
+vfmsubadd231ps ymm, ymm, ymm
+vfnmadd132pd xmm, xmm, m128
+vfnmadd132pd xmm, xmm, xmm
+vfnmadd132pd ymm, ymm, m256
+vfnmadd132pd ymm, ymm, ymm
+vfnmadd132ps xmm, xmm, m128
+vfnmadd132ps xmm, xmm, xmm
+vfnmadd132ps ymm, ymm, m256
+vfnmadd132ps ymm, ymm, ymm
+vfnmadd132sd xmm, xmm, m64
+vfnmadd132sd xmm, xmm, xmm
+vfnmadd132ss xmm, xmm, m32
+vfnmadd132ss xmm, xmm, xmm
+vfnmadd213pd xmm, xmm, m128
+vfnmadd213pd xmm, xmm, xmm
+vfnmadd213pd ymm, ymm, m256
+vfnmadd213pd ymm, ymm, ymm
+vfnmadd213ps xmm, xmm, m128
+vfnmadd213ps xmm, xmm, xmm
+vfnmadd213ps ymm, ymm, m256
+vfnmadd213ps ymm, ymm, ymm
+vfnmadd213sd xmm, xmm, m64
+vfnmadd213sd xmm, xmm, xmm
+vfnmadd213ss xmm, xmm, m32
+vfnmadd213ss xmm, xmm, xmm
+vfnmadd231pd xmm, xmm, m128
+vfnmadd231pd xmm, xmm, xmm
+vfnmadd231pd ymm, ymm, m256
+vfnmadd231pd ymm, ymm, ymm
+vfnmadd231ps xmm, xmm, m128
+vfnmadd231ps xmm, xmm, xmm
+vfnmadd231ps ymm, ymm, m256
+vfnmadd231ps ymm, ymm, ymm
+vfnmadd231sd xmm, xmm, m64
+vfnmadd231sd xmm, xmm, xmm
+vfnmadd231ss xmm, xmm, m32
+vfnmadd231ss xmm, xmm, xmm
+vfnmsub132pd xmm, xmm, m128
+vfnmsub132pd xmm, xmm, xmm
+vfnmsub132pd ymm, ymm, m256
+vfnmsub132pd ymm, ymm, ymm
+vfnmsub132ps xmm, xmm, m128
+vfnmsub132ps xmm, xmm, xmm
+vfnmsub132ps ymm, ymm, m256
+vfnmsub132ps ymm, ymm, ymm
+vfnmsub132sd xmm, xmm, m64
+vfnmsub132sd xmm, xmm, xmm
+vfnmsub132ss xmm, xmm, m32
+vfnmsub132ss xmm, xmm, xmm
+vfnmsub213pd xmm, xmm, m128
+vfnmsub213pd xmm, xmm, xmm
+vfnmsub213pd ymm, ymm, m256
+vfnmsub213pd ymm, ymm, ymm
+vfnmsub213ps xmm, xmm, m128
+vfnmsub213ps xmm, xmm, xmm
+vfnmsub213ps ymm, ymm, m256
+vfnmsub213ps ymm, ymm, ymm
+vfnmsub213sd xmm, xmm, m64
+vfnmsub213sd xmm, xmm, xmm
+vfnmsub213ss xmm, xmm, m32
+vfnmsub213ss xmm, xmm, xmm
+vfnmsub231pd xmm, xmm, m128
+vfnmsub231pd xmm, xmm, xmm
+vfnmsub231pd ymm, ymm, m256
+vfnmsub231pd ymm, ymm, ymm
+vfnmsub231ps xmm, xmm, m128
+vfnmsub231ps xmm, xmm, xmm
+vfnmsub231ps ymm, ymm, m256
+vfnmsub231ps ymm, ymm, ymm
+vfnmsub231sd xmm, xmm, m64
+vfnmsub231sd xmm, xmm, xmm
+vfnmsub231ss xmm, xmm, m32
+vfnmsub231ss xmm, xmm, xmm
+vgatherdpd xmm, m32, xmm
+vgatherdpd ymm, m32, ymm
+vgatherdps xmm, m32, xmm
+vgatherdps ymm, m32, ymm
+vgatherqpd xmm, m64, xmm
+vgatherqpd ymm, m64, ymm
+vgatherqps xmm, m64, xmm
+vgatherqps_1 xmm, m64, xmm
+vhaddpd xmm, xmm, m128
+vhaddpd xmm, xmm, xmm
+vhaddpd ymm, ymm, m256
+vhaddpd ymm, ymm, ymm
+vhaddps xmm, xmm, m128
+vhaddps xmm, xmm, xmm
+vhaddps ymm, ymm, m256
+vhaddps ymm, ymm, ymm
+vhsubpd xmm, xmm, m128
+vhsubpd xmm, xmm, xmm
+vhsubpd ymm, ymm, m256
+vhsubpd ymm, ymm, ymm
+vhsubps xmm, xmm, m128
+vhsubps xmm, xmm, xmm
+vhsubps ymm, ymm, m256
+vhsubps ymm, ymm, ymm
+vinsertf128 ymm, ymm, m128, imm8
+vinsertf128 ymm, ymm, xmm, imm8
+vinserti128 ymm, ymm, m128, imm8
+vinserti128 ymm, ymm, xmm, imm8
+vinsertps xmm, xmm, m32, imm8
+vinsertps xmm, xmm, xmm, imm8
+vlddqu xmm, m128
+vlddqu ymm, m256
+vldmxcsr m32
+vmaskmovdqu xmm, xmm
+vmaskmovpd m128, xmm, xmm
+vmaskmovpd m256, ymm, ymm
+vmaskmovpd xmm, xmm, m128
+vmaskmovpd ymm, ymm, m256
+vmaskmovps m128, xmm, xmm
+vmaskmovps m256, ymm, ymm
+vmaskmovps xmm, xmm, m128
+vmaskmovps ymm, ymm, m256
+vmaxpd xmm, xmm, m128
+vmaxpd xmm, xmm, xmm
+vmaxpd ymm, ymm, m256
+vmaxpd ymm, ymm, ymm
+vmaxps xmm, xmm, m128
+vmaxps xmm, xmm, xmm
+vmaxps ymm, ymm, m256
+vmaxps ymm, ymm, ymm
+vmaxsd xmm, xmm, m64
+vmaxsd xmm, xmm, xmm
+vmaxss xmm, xmm, m32
+vmaxss xmm, xmm, xmm
+vminpd xmm, xmm, m128
+vminpd xmm, xmm, xmm
+vminpd ymm, ymm, m256
+vminpd ymm, ymm, ymm
+vminps xmm, xmm, m128
+vminps xmm, xmm, xmm
+vminps ymm, ymm, m256
+vminps ymm, ymm, ymm
+vminsd xmm, xmm, m64
+vminsd xmm, xmm, xmm
+vminss xmm, xmm, m32
+vminss xmm, xmm, xmm
+vmovapd m128, xmm
+vmovapd m256, ymm
+vmovapd xmm, m128
+vmovapd xmm, xmm
+vmovapd_1 xmm, xmm
+vmovapd ymm, m256
+vmovapd ymm, ymm
+vmovapd_1 ymm, ymm
+vmovaps m128, xmm
+vmovaps m256, ymm
+vmovaps xmm, m128
+vmovaps xmm, xmm
+vmovaps_1 xmm, xmm
+vmovaps ymm, m256
+vmovaps ymm, ymm
+vmovaps_1 ymm, ymm
+vmovd m32, xmm
+vmovd r32, xmm
+vmovd xmm, m32
+vmovd xmm, r32
+vmovddup xmm, m64
+vmovddup xmm, xmm
+vmovddup ymm, m256
+vmovddup ymm, ymm
+vmovdqa m128, xmm
+vmovdqa m256, ymm
+vmovdqa xmm, m128
+vmovdqa xmm, xmm
+vmovdqa_1 xmm, xmm
+vmovdqa ymm, m256
+vmovdqa ymm, ymm
+vmovdqa_1 ymm, ymm
+vmovdqu m128, xmm
+vmovdqu m256, ymm
+vmovdqu xmm, m128
+vmovdqu xmm, xmm
+vmovdqu_1 xmm, xmm
+vmovdqu ymm, m256
+vmovdqu ymm, ymm
+vmovdqu_1 ymm, ymm
+vmovhlps xmm, xmm, xmm
+vmovhpd m64, xmm
+vmovhpd xmm, xmm, m64
+vmovhps m64, xmm
+vmovhps xmm, xmm, m64
+vmovlhps xmm, xmm, xmm
+vmovlpd m64, xmm
+vmovlpd xmm, xmm, m64
+vmovlps m64, xmm
+vmovlps xmm, xmm, m64
+vmovmskpd r32, xmm
+vmovmskpd r32, ymm
+vmovmskpd r64, xmm
+vmovmskpd r64, ymm
+vmovmskps r32, xmm
+vmovmskps r32, ymm
+vmovmskps r64, xmm
+vmovmskps r64, ymm
+vmovntdq m128, xmm
+vmovntdq m256, ymm
+vmovntdqa xmm, m128
+vmovntdqa ymm, m256
+vmovntpd m128, xmm
+vmovntpd m256, ymm
+vmovntps m128, xmm
+vmovntps m256, ymm
+vmovq m64, xmm
+vmovq_1 m64, xmm
+vmovq r64, xmm
+vmovq xmm, m64
+vmovq_1 xmm, m64
+vmovq xmm, r64
+vmovq xmm, xmm
+vmovq_1 xmm, xmm
+vmovsd m64, xmm
+vmovsd xmm, m64
+vmovsd xmm, xmm, xmm
+vmovsd_1 xmm, xmm, xmm
+vmovshdup xmm, m128
+vmovshdup xmm, xmm
+vmovshdup ymm, m256
+vmovshdup ymm, ymm
+vmovsldup xmm, m128
+vmovsldup xmm, xmm
+vmovsldup ymm, m256
+vmovsldup ymm, ymm
+vmovss m32, xmm
+vmovss xmm, m32
+vmovss xmm, xmm, xmm
+vmovss_1 xmm, xmm, xmm
+vmovupd m128, xmm
+vmovupd m256, ymm
+vmovupd xmm, m128
+vmovupd xmm, xmm
+vmovupd_1 xmm, xmm
+vmovupd ymm, m256
+vmovupd ymm, ymm
+vmovupd_1 ymm, ymm
+vmovups m128, xmm
+vmovups m256, ymm
+vmovups xmm, m128
+vmovups xmm, xmm
+vmovups_1 xmm, xmm
+vmovups ymm, m256
+vmovups ymm, ymm
+vmovups_1 ymm, ymm
+vmpsadbw xmm, xmm, m128, imm8
+vmpsadbw xmm, xmm, xmm, imm8
+vmpsadbw ymm, ymm, m256, imm8
+vmpsadbw ymm, ymm, ymm, imm8
+vmulpd xmm, xmm, m128
+vmulpd xmm, xmm, xmm
+vmulpd ymm, ymm, m256
+vmulpd ymm, ymm, ymm
+vmulps xmm, xmm, m128
+vmulps xmm, xmm, xmm
+vmulps ymm, ymm, m256
+vmulps ymm, ymm, ymm
+vmulsd xmm, xmm, m64
+vmulsd xmm, xmm, xmm
+vmulss xmm, xmm, m32
+vmulss xmm, xmm, xmm
+vorpd xmm, xmm, m128
+vorpd xmm, xmm, xmm
+vorpd ymm, ymm, m256
+vorpd ymm, ymm, ymm
+vorps xmm, xmm, m128
+vorps xmm, xmm, xmm
+vorps ymm, ymm, m256
+vorps ymm, ymm, ymm
+vpabsb xmm, m128
+vpabsb xmm, xmm
+vpabsb ymm, m256
+vpabsb ymm, ymm
+vpabsd xmm, m128
+vpabsd xmm, xmm
+vpabsd ymm, m256
+vpabsd ymm, ymm
+vpabsw xmm, m128
+vpabsw xmm, xmm
+vpabsw ymm, m256
+vpabsw ymm, ymm
+vpackssdw xmm, xmm, m128
+vpackssdw xmm, xmm, xmm
+vpackssdw ymm, ymm, m256
+vpackssdw ymm, ymm, ymm
+vpacksswb xmm, xmm, m128
+vpacksswb xmm, xmm, xmm
+vpacksswb ymm, ymm, m256
+vpacksswb ymm, ymm, ymm
+vpackusdw xmm, xmm, m128
+vpackusdw xmm, xmm, xmm
+vpackusdw ymm, ymm, m256
+vpackusdw ymm, ymm, ymm
+vpackuswb xmm, xmm, m128
+vpackuswb xmm, xmm, xmm
+vpackuswb ymm, ymm, m256
+vpackuswb ymm, ymm, ymm
+vpaddb xmm, xmm, m128
+vpaddb xmm, xmm, xmm
+vpaddb ymm, ymm, m256
+vpaddb ymm, ymm, ymm
+vpaddd xmm, xmm, m128
+vpaddd xmm, xmm, xmm
+vpaddd ymm, ymm, m256
+vpaddd ymm, ymm, ymm
+vpaddq xmm, xmm, m128
+vpaddq xmm, xmm, xmm
+vpaddq ymm, ymm, m256
+vpaddq ymm, ymm, ymm
+vpaddsb xmm, xmm, m128
+vpaddsb xmm, xmm, xmm
+vpaddsb ymm, ymm, m256
+vpaddsb ymm, ymm, ymm
+vpaddsw xmm, xmm, m128
+vpaddsw xmm, xmm, xmm
+vpaddsw ymm, ymm, m256
+vpaddsw ymm, ymm, ymm
+vpaddusb xmm, xmm, m128
+vpaddusb xmm, xmm, xmm
+vpaddusb ymm, ymm, m256
+vpaddusb ymm, ymm, ymm
+vpaddusw xmm, xmm, m128
+vpaddusw xmm, xmm, xmm
+vpaddusw ymm, ymm, m256
+vpaddusw ymm, ymm, ymm
+vpaddw xmm, xmm, m128
+vpaddw xmm, xmm, xmm
+vpaddw ymm, ymm, m256
+vpaddw ymm, ymm, ymm
+vpalignr xmm, xmm, m128, imm8
+vpalignr xmm, xmm, xmm, imm8
+vpalignr ymm, ymm, m256, imm8
+vpalignr ymm, ymm, ymm, imm8
+vpand xmm, xmm, m128
+vpand xmm, xmm, xmm
+vpand ymm, ymm, m256
+vpand ymm, ymm, ymm
+vpandn xmm, xmm, m128
+vpandn xmm, xmm, xmm
+vpandn ymm, ymm, m256
+vpandn ymm, ymm, ymm
+vpavgb xmm, xmm, m128
+vpavgb xmm, xmm, xmm
+vpavgb ymm, ymm, m256
+vpavgb ymm, ymm, ymm
+vpavgw xmm, xmm, m128
+vpavgw xmm, xmm, xmm
+vpavgw ymm, ymm, m256
+vpavgw ymm, ymm, ymm
+vpblendd xmm, xmm, m128, imm8
+vpblendd xmm, xmm, xmm, imm8
+vpblendd ymm, ymm, m256, imm8
+vpblendd ymm, ymm, ymm, imm8
+vpblendvb xmm, xmm, m128, xmm
+vpblendvb xmm, xmm, xmm, xmm
+vpblendvb ymm, ymm, m256, ymm
+vpblendvb ymm, ymm, ymm, ymm
+vpblendw xmm, xmm, m128, imm8
+vpblendw xmm, xmm, xmm, imm8
+vpblendw ymm, ymm, m256, imm8
+vpblendw ymm, ymm, ymm, imm8
+vpbroadcastb xmm, m8
+vpbroadcastb xmm, xmm
+vpbroadcastb ymm, m8
+vpbroadcastb ymm, xmm
+vpbroadcastd xmm, m32
+vpbroadcastd xmm, xmm
+vpbroadcastd ymm, m32
+vpbroadcastd ymm, xmm
+vpbroadcastq xmm, m64
+vpbroadcastq xmm, xmm
+vpbroadcastq ymm, m64
+vpbroadcastq ymm, xmm
+vpbroadcastw xmm, m16
+vpbroadcastw xmm, xmm
+vpbroadcastw ymm, m16
+vpbroadcastw ymm, xmm
+vpclmulqdq xmm, xmm, m128, imm8
+vpclmulqdq xmm, xmm, xmm, imm8
+vpcmpeqb xmm, xmm, m128
+vpcmpeqb xmm, xmm, xmm
+vpcmpeqb ymm, ymm, m256
+vpcmpeqb ymm, ymm, ymm
+vpcmpeqd xmm, xmm, m128
+vpcmpeqd xmm, xmm, xmm
+vpcmpeqd ymm, ymm, m256
+vpcmpeqd ymm, ymm, ymm
+vpcmpeqq xmm, xmm, m128
+vpcmpeqq xmm, xmm, xmm
+vpcmpeqq ymm, ymm, m256
+vpcmpeqq ymm, ymm, ymm
+vpcmpeqw xmm, xmm, m128
+vpcmpeqw xmm, xmm, xmm
+vpcmpeqw ymm, ymm, m256
+vpcmpeqw ymm, ymm, ymm
+vpcmpestri xmm, m128, imm8
+vpcmpestri xmm, xmm, imm8
+vpcmpestrm xmm, m128, imm8
+vpcmpestrm xmm, xmm, imm8
+vpcmpgtb xmm, xmm, m128
+vpcmpgtb xmm, xmm, xmm
+vpcmpgtb ymm, ymm, m256
+vpcmpgtb ymm, ymm, ymm
+vpcmpgtd xmm, xmm, m128
+vpcmpgtd xmm, xmm, xmm
+vpcmpgtd ymm, ymm, m256
+vpcmpgtd ymm, ymm, ymm
+vpcmpgtq xmm, xmm, m128
+vpcmpgtq xmm, xmm, xmm
+vpcmpgtq ymm, ymm, m256
+vpcmpgtq ymm, ymm, ymm
+vpcmpgtw xmm, xmm, m128
+vpcmpgtw xmm, xmm, xmm
+vpcmpgtw ymm, ymm, m256
+vpcmpgtw ymm, ymm, ymm
+vpcmpistri xmm, m128, imm8
+vpcmpistri xmm, xmm, imm8
+vpcmpistrm xmm, m128, imm8
+vpcmpistrm xmm, xmm, imm8
+vperm2f128 ymm, ymm, m256, imm8
+vperm2f128 ymm, ymm, ymm, imm8
+vperm2i128 ymm, ymm, m256, imm8
+vperm2i128 ymm, ymm, ymm, imm8
+vpermd ymm, ymm, m256
+vpermd ymm, ymm, ymm
+vpermilpd xmm, m128, imm8
+vpermilpd xmm, xmm, imm8
+vpermilpd xmm, xmm, m128
+vpermilpd xmm, xmm, xmm
+vpermilpd ymm, m256, imm8
+vpermilpd ymm, ymm, imm8
+vpermilpd ymm, ymm, m256
+vpermilpd ymm, ymm, ymm
+vpermilps xmm, m128, imm8
+vpermilps xmm, xmm, imm8
+vpermilps xmm, xmm, m128
+vpermilps xmm, xmm, xmm
+vpermilps ymm, m256, imm8
+vpermilps ymm, ymm, imm8
+vpermilps ymm, ymm, m256
+vpermilps ymm, ymm, ymm
+vpermpd ymm, m256, imm8
+vpermpd ymm, ymm, imm8
+vpermps ymm, ymm, m256
+vpermps ymm, ymm, ymm
+vpermq ymm, m256, imm8
+vpermq ymm, ymm, imm8
+vpextrb m8, xmm, imm8
+vpextrb r32, xmm, imm8
+vpextrb r64, xmm, imm8
+vpextrd m32, xmm, imm8
+vpextrd r32, xmm, imm8
+vpextrq m64, xmm, imm8
+vpextrq r64, xmm, imm8
+vpextrw m16, xmm, imm8
+vpextrw r32, xmm, imm8
+vpextrw_1 r32, xmm, imm8
+vpextrw r64, xmm, imm8
+vpextrw_1 r64, xmm, imm8
+vpgatherdd xmm, m32, xmm
+vpgatherdd ymm, m32, ymm
+vpgatherdq xmm, m32, xmm
+vpgatherdq ymm, m32, ymm
+vpgatherqd xmm, m64, xmm
+vpgatherqd_1 xmm, m64, xmm
+vpgatherqq xmm, m64, xmm
+vpgatherqq ymm, m64, ymm
+vphaddd xmm, xmm, m128
+vphaddd xmm, xmm, xmm
+vphaddd ymm, ymm, m256
+vphaddd ymm, ymm, ymm
+vphaddsw xmm, xmm, m128
+vphaddsw xmm, xmm, xmm
+vphaddsw ymm, ymm, m256
+vphaddsw ymm, ymm, ymm
+vphaddw xmm, xmm, m128
+vphaddw xmm, xmm, xmm
+vphaddw ymm, ymm, m256
+vphaddw ymm, ymm, ymm
+vphminposuw xmm, m128
+vphminposuw xmm, xmm
+vphsubd xmm, xmm, m128
+vphsubd xmm, xmm, xmm
+vphsubd ymm, ymm, m256
+vphsubd ymm, ymm, ymm
+vphsubsw xmm, xmm, m128
+vphsubsw xmm, xmm, xmm
+vphsubsw ymm, ymm, m256
+vphsubsw ymm, ymm, ymm
+vphsubw xmm, xmm, m128
+vphsubw xmm, xmm, xmm
+vphsubw ymm, ymm, m256
+vphsubw ymm, ymm, ymm
+vpinsrb xmm, xmm, m8, imm8
+vpinsrb xmm, xmm, r32, imm8
+vpinsrd xmm, xmm, m32, imm8
+vpinsrd xmm, xmm, r32, imm8
+vpinsrq xmm, xmm, m64, imm8
+vpinsrq xmm, xmm, r64, imm8
+vpinsrw xmm, xmm, m16, imm8
+vpinsrw xmm, xmm, r32, imm8
+vpmaddubsw xmm, xmm, m128
+vpmaddubsw xmm, xmm, xmm
+vpmaddubsw ymm, ymm, m256
+vpmaddubsw ymm, ymm, ymm
+vpmaddwd xmm, xmm, m128
+vpmaddwd xmm, xmm, xmm
+vpmaddwd ymm, ymm, m256
+vpmaddwd ymm, ymm, ymm
+vpmaskmovd m128, xmm, xmm
+vpmaskmovd m256, ymm, ymm
+vpmaskmovd xmm, xmm, m128
+vpmaskmovd ymm, ymm, m256
+vpmaskmovq m128, xmm, xmm
+vpmaskmovq m256, ymm, ymm
+vpmaskmovq xmm, xmm, m128
+vpmaskmovq ymm, ymm, m256
+vpmaxsb xmm, xmm, m128
+vpmaxsb xmm, xmm, xmm
+vpmaxsb ymm, ymm, m256
+vpmaxsb ymm, ymm, ymm
+vpmaxsd xmm, xmm, m128
+vpmaxsd xmm, xmm, xmm
+vpmaxsd ymm, ymm, m256
+vpmaxsd ymm, ymm, ymm
+vpmaxsw xmm, xmm, m128
+vpmaxsw xmm, xmm, xmm
+vpmaxsw ymm, ymm, m256
+vpmaxsw ymm, ymm, ymm
+vpmaxub xmm, xmm, m128
+vpmaxub xmm, xmm, xmm
+vpmaxub ymm, ymm, m256
+vpmaxub ymm, ymm, ymm
+vpmaxud xmm, xmm, m128
+vpmaxud xmm, xmm, xmm
+vpmaxud ymm, ymm, m256
+vpmaxud ymm, ymm, ymm
+vpmaxuw xmm, xmm, m128
+vpmaxuw xmm, xmm, xmm
+vpmaxuw ymm, ymm, m256
+vpmaxuw ymm, ymm, ymm
+vpminsb xmm, xmm, m128
+vpminsb xmm, xmm, xmm
+vpminsb ymm, ymm, m256
+vpminsb ymm, ymm, ymm
+vpminsd xmm, xmm, m128
+vpminsd xmm, xmm, xmm
+vpminsd ymm, ymm, m256
+vpminsd ymm, ymm, ymm
+vpminsw xmm, xmm, m128
+vpminsw xmm, xmm, xmm
+vpminub xmm, xmm, m128
+vpminub xmm, xmm, xmm
+vpminub ymm, ymm, m256
+vpminub ymm, ymm, ymm
+vpminud xmm, xmm, m128
+vpminud xmm, xmm, xmm
+vpminud ymm, ymm, m256
+vpminud ymm, ymm, ymm
+vpminuw xmm, xmm, m128
+vpminuw xmm, xmm, xmm
+vpminuw ymm, ymm, m256
+vpminuw ymm, ymm, ymm
+vpmovmskb r32, xmm
+vpmovmskb r32, ymm
+vpmovmskb r64, xmm
+vpmovmskb r64, ymm
+vpmovsxbd xmm, m32
+vpmovsxbd xmm, xmm
+vpmovsxbd ymm, m64
+vpmovsxbd ymm, xmm
+vpmovsxbq xmm, m16
+vpmovsxbq xmm, xmm
+vpmovsxbq ymm, m32
+vpmovsxbq ymm, xmm
+vpmovsxbw xmm, m64
+vpmovsxbw xmm, xmm
+vpmovsxbw ymm, m128
+vpmovsxbw ymm, xmm
+vpmovsxdq xmm, m64
+vpmovsxdq xmm, xmm
+vpmovsxdq ymm, m128
+vpmovsxdq ymm, xmm
+vpmovsxwd xmm, m64
+vpmovsxwd xmm, xmm
+vpmovsxwd ymm, m128
+vpmovsxwd ymm, xmm
+vpmovsxwq xmm, m32
+vpmovsxwq xmm, xmm
+vpmovsxwq ymm, m64
+vpmovsxwq ymm, xmm
+vpmovzxbd xmm, m32
+vpmovzxbd xmm, xmm
+vpmovzxbd ymm, m64
+vpmovzxbd ymm, xmm
+vpmovzxbq xmm, m16
+vpmovzxbq xmm, xmm
+vpmovzxbq ymm, m32
+vpmovzxbq ymm, xmm
+vpmovzxbw xmm, m64
+vpmovzxbw xmm, xmm
+vpmovzxbw ymm, m128
+vpmovzxbw ymm, xmm
+vpmovzxdq xmm, m64
+vpmovzxdq xmm, xmm
+vpmovzxdq ymm, m128
+vpmovzxdq ymm, xmm
+vpmovzxwd xmm, m64
+vpmovzxwd xmm, xmm
+vpmovzxwd ymm, m128
+vpmovzxwd ymm, xmm
+vpmovzxwq xmm, m32
+vpmovzxwq xmm, xmm
+vpmovzxwq ymm, m64
+vpmovzxwq ymm, xmm
+vpmuldq xmm, xmm, m128
+vpmuldq xmm, xmm, xmm
+vpmuldq ymm, ymm, m256
+vpmuldq ymm, ymm, ymm
+vpmulhrsw xmm, xmm, m128
+vpmulhrsw xmm, xmm, xmm
+vpmulhrsw ymm, ymm, m256
+vpmulhrsw ymm, ymm, ymm
+vpmulhuw xmm, xmm, m128
+vpmulhuw xmm, xmm, xmm
+vpmulhuw ymm, ymm, m256
+vpmulhuw ymm, ymm, ymm
+vpmulhw xmm, xmm, m128
+vpmulhw xmm, xmm, xmm
+vpmulhw ymm, ymm, m256
+vpmulhw ymm, ymm, ymm
+vpmulld xmm, xmm, m128
+vpmulld xmm, xmm, xmm
+vpmulld ymm, ymm, m256
+vpmulld ymm, ymm, ymm
+vpmullw xmm, xmm, m128
+vpmullw xmm, xmm, xmm
+vpmullw ymm, ymm, m256
+vpmullw ymm, ymm, ymm
+vpmuludq xmm, xmm, m128
+vpmuludq xmm, xmm, xmm
+vpmuludq ymm, ymm, m256
+vpmuludq ymm, ymm, ymm
+vpor xmm, xmm, m128
+vpor xmm, xmm, xmm
+vpor ymm, ymm, m256
+vpor ymm, ymm, ymm
+vpsadbw xmm, xmm, m128
+vpsadbw xmm, xmm, xmm
+vpsadbw ymm, ymm, m256
+vpsadbw ymm, ymm, ymm
+vpshufb xmm, xmm, m128
+vpshufb xmm, xmm, xmm
+vpshufb ymm, ymm, m256
+vpshufb ymm, ymm, ymm
+vpshufd xmm, m128, imm8
+vpshufd xmm, xmm, imm8
+vpshufd ymm, m256, imm8
+vpshufd ymm, ymm, imm8
+vpshufhw xmm, m128, imm8
+vpshufhw xmm, xmm, imm8
+vpshufhw ymm, m256, imm8
+vpshufhw ymm, ymm, imm8
+vpshuflw xmm, m128, imm8
+vpshuflw xmm, xmm, imm8
+vpshuflw ymm, m256, imm8
+vpshuflw ymm, ymm, imm8
+vpsignb xmm, xmm, m128
+vpsignb xmm, xmm, xmm
+vpsignd xmm, xmm, m128
+vpsignd xmm, xmm, xmm
+vpsignw xmm, xmm, m128
+vpsignw xmm, xmm, xmm
+vpslld xmm, xmm, imm8
+vpslld xmm, xmm, m128
+vpslld xmm, xmm, xmm
+vpslld ymm, ymm, imm8
+vpslld ymm, ymm, m128
+vpslld ymm, ymm, xmm
+vpslldq xmm, xmm, imm8
+vpslldq ymm, ymm, imm8
+vpsllq xmm, xmm, imm8
+vpsllq xmm, xmm, m128
+vpsllq xmm, xmm, xmm
+vpsllq ymm, ymm, imm8
+vpsllq ymm, ymm, m128
+vpsllq ymm, ymm, xmm
+vpsllvd xmm, xmm, m128
+vpsllvd xmm, xmm, xmm
+vpsllvd ymm, ymm, m256
+vpsllvd ymm, ymm, ymm
+vpsllvq xmm, xmm, m128
+vpsllvq xmm, xmm, xmm
+vpsllvq ymm, ymm, m256
+vpsllvq ymm, ymm, ymm
+vpsllw xmm, xmm, imm8
+vpsllw xmm, xmm, m128
+vpsllw xmm, xmm, xmm
+vpsllw ymm, ymm, imm8
+vpsllw ymm, ymm, m128
+vpsllw ymm, ymm, xmm
+vpsrad xmm, xmm, imm8
+vpsrad xmm, xmm, m128
+vpsrad xmm, xmm, xmm
+vpsrad ymm, ymm, imm8
+vpsrad ymm, ymm, m128
+vpsrad ymm, ymm, xmm
+vpsravd xmm, xmm, m128
+vpsravd xmm, xmm, xmm
+vpsravd ymm, ymm, m256
+vpsravd ymm, ymm, ymm
+vpsraw xmm, xmm, imm8
+vpsraw xmm, xmm, m128
+vpsraw xmm, xmm, xmm
+vpsraw ymm, ymm, imm8
+vpsraw ymm, ymm, m128
+vpsraw ymm, ymm, xmm
+vpsrld xmm, xmm, imm8
+vpsrld xmm, xmm, m128
+vpsrld xmm, xmm, xmm
+vpsrld ymm, ymm, imm8
+vpsrld ymm, ymm, m128
+vpsrld ymm, ymm, xmm
+vpsrldq xmm, xmm, imm8
+vpsrldq ymm, ymm, imm8
+vpsrlq xmm, xmm, imm8
+vpsrlq xmm, xmm, m128
+vpsrlq xmm, xmm, xmm
+vpsrlq ymm, ymm, imm8
+vpsrlq ymm, ymm, m128
+vpsrlq ymm, ymm, xmm
+vpsrlvd xmm, xmm, m128
+vpsrlvd xmm, xmm, xmm
+vpsrlvd ymm, ymm, m256
+vpsrlvd ymm, ymm, ymm
+vpsrlvq xmm, xmm, m128
+vpsrlvq xmm, xmm, xmm
+vpsrlvq ymm, ymm, m256
+vpsrlvq ymm, ymm, ymm
+vpsrlw xmm, xmm, imm8
+vpsrlw xmm, xmm, m128
+vpsrlw xmm, xmm, xmm
+vpsrlw ymm, ymm, imm8
+vpsrlw ymm, ymm, m128
+vpsrlw ymm, ymm, xmm
+vpsubb xmm, xmm, m128
+vpsubb xmm, xmm, xmm
+vpsubb ymm, ymm, m256
+vpsubb ymm, ymm, ymm
+vpsubd xmm, xmm, m128
+vpsubd xmm, xmm, xmm
+vpsubd ymm, ymm, m256
+vpsubd ymm, ymm, ymm
+vpsubq xmm, xmm, m128
+vpsubq xmm, xmm, xmm
+vpsubq ymm, ymm, m256
+vpsubq ymm, ymm, ymm
+vpsubsb xmm, xmm, m128
+vpsubsb xmm, xmm, xmm
+vpsubsb ymm, ymm, m256
+vpsubsb ymm, ymm, ymm
+vpsubsw xmm, xmm, m128
+vpsubsw xmm, xmm, xmm
+vpsubsw ymm, ymm, m256
+vpsubsw ymm, ymm, ymm
+vpsubusb xmm, xmm, m128
+vpsubusb xmm, xmm, xmm
+vpsubusb ymm, ymm, m256
+vpsubusb ymm, ymm, ymm
+vpsubusw xmm, xmm, m128
+vpsubusw xmm, xmm, xmm
+vpsubusw ymm, ymm, m256
+vpsubusw ymm, ymm, ymm
+vpsubw xmm, xmm, m128
+vpsubw xmm, xmm, xmm
+vpsubw ymm, ymm, m256
+vpsubw ymm, ymm, ymm
+vptest xmm, m128
+vptest xmm, xmm
+vptest ymm, m256
+vptest ymm, ymm
+vpunpckhbw xmm, xmm, m128
+vpunpckhbw xmm, xmm, xmm
+vpunpckhbw ymm, ymm, m256
+vpunpckhbw ymm, ymm, ymm
+vpunpckhdq xmm, xmm, m128
+vpunpckhdq xmm, xmm, xmm
+vpunpckhdq ymm, ymm, m256
+vpunpckhdq ymm, ymm, ymm
+vpunpckhqdq xmm, xmm, m128
+vpunpckhqdq xmm, xmm, xmm
+vpunpckhqdq ymm, ymm, m256
+vpunpckhqdq ymm, ymm, ymm
+vpunpckhwd xmm, xmm, m128
+vpunpckhwd xmm, xmm, xmm
+vpunpckhwd ymm, ymm, m256
+vpunpckhwd ymm, ymm, ymm
+vpunpcklbw xmm, xmm, m128
+vpunpcklbw xmm, xmm, xmm
+vpunpcklbw ymm, ymm, m256
+vpunpcklbw ymm, ymm, ymm
+vpunpckldq xmm, xmm, m128
+vpunpckldq xmm, xmm, xmm
+vpunpckldq ymm, ymm, m256
+vpunpckldq ymm, ymm, ymm
+vpunpcklqdq xmm, xmm, m128
+vpunpcklqdq xmm, xmm, xmm
+vpunpcklqdq ymm, ymm, m256
+vpunpcklqdq ymm, ymm, ymm
+vpunpcklwd xmm, xmm, m128
+vpunpcklwd xmm, xmm, xmm
+vpunpcklwd ymm, ymm, m256
+vpunpcklwd ymm, ymm, ymm
+vpxor xmm, xmm, m128
+vpxor xmm, xmm, xmm
+vpxor ymm, ymm, m256
+vpxor ymm, ymm, ymm
+vrcpps xmm, m128
+vrcpps xmm, xmm
+vrcpps ymm, m256
+vrcpps ymm, ymm
+vrcpss xmm, xmm, m32
+vrcpss xmm, xmm, xmm
+vroundpd xmm, m128, imm8
+vroundpd xmm, xmm, imm8
+vroundpd ymm, m256, imm8
+vroundpd ymm, ymm, imm8
+vroundps xmm, m128, imm8
+vroundps xmm, xmm, imm8
+vroundps ymm, m256, imm8
+vroundps ymm, ymm, imm8
+vroundsd xmm, xmm, m64, imm8
+vroundsd xmm, xmm, xmm, imm8
+vroundss xmm, xmm, m32, imm8
+vroundss xmm, xmm, xmm, imm8
+vrsqrtps xmm, m128
+vrsqrtps xmm, xmm
+vrsqrtps ymm, m256
+vrsqrtps ymm, ymm
+vrsqrtss xmm, xmm, m32
+vrsqrtss xmm, xmm, xmm
+vshufpd xmm, xmm, m128, imm8
+vshufpd xmm, xmm, xmm, imm8
+vshufpd ymm, ymm, m256, imm8
+vshufpd ymm, ymm, ymm, imm8
+vshufps xmm, xmm, m128, imm8
+vshufps xmm, xmm, xmm, imm8
+vshufps ymm, ymm, m256, imm8
+vshufps ymm, ymm, ymm, imm8
+vsqrtpd xmm, m128
+vsqrtpd xmm, xmm
+vsqrtpd ymm, m256
+vsqrtpd ymm, ymm
+vsqrtps xmm, m128
+vsqrtps xmm, xmm
+vsqrtps ymm, m256
+vsqrtps ymm, ymm
+vsqrtsd xmm, xmm, m64
+vsqrtsd xmm, xmm, xmm
+vsqrtss xmm, xmm, m32
+vsqrtss xmm, xmm, xmm
+vstmxcsr m32
+vsubpd xmm, xmm, m128
+vsubpd xmm, xmm, xmm
+vsubpd ymm, ymm, m256
+vsubpd ymm, ymm, ymm
+vsubps xmm, xmm, m128
+vsubps xmm, xmm, xmm
+vsubps ymm, ymm, m256
+vsubps ymm, ymm, ymm
+vsubsd xmm, xmm, m64
+vsubsd xmm, xmm, xmm
+vsubss xmm, xmm, m32
+vsubss xmm, xmm, xmm
+vtestpd xmm, m128
+vtestpd xmm, xmm
+vtestpd ymm, m256
+vtestpd ymm, ymm
+vtestps xmm, m128
+vtestps xmm, xmm
+vtestps ymm, m256
+vtestps ymm, ymm
+vucomisd xmm, m64
+vucomisd xmm, xmm
+vucomiss xmm, m32
+vucomiss xmm, xmm
+vunpckhpd xmm, xmm, m128
+vunpckhpd xmm, xmm, xmm
+vunpckhpd ymm, ymm, m256
+vunpckhpd ymm, ymm, ymm
+vunpckhps xmm, xmm, m128
+vunpckhps xmm, xmm, xmm
+vunpckhps ymm, ymm, m256
+vunpckhps ymm, ymm, ymm
+vunpcklpd xmm, xmm, m128
+vunpcklpd xmm, xmm, xmm
+vunpcklpd ymm, ymm, m256
+vunpcklpd ymm, ymm, ymm
+vunpcklps xmm, xmm, m128
+vunpcklps xmm, xmm, xmm
+vunpcklps ymm, ymm, m256
+vunpcklps ymm, ymm, ymm
+vxorpd xmm, xmm, m128
+vxorpd xmm, xmm, xmm
+vxorpd ymm, ymm, m256
+vxorpd ymm, ymm, ymm
+vxorps xmm, xmm, m128
+vxorps xmm, xmm, xmm
+vxorps ymm, ymm, m256
+vxorps ymm, ymm, ymm
+vzeroall
+vzeroupper
+wait
+wrfsbase r32
+wrfsbase r64
+wrgsbase r32
+wrgsbase r64
+xabort imm8
+xacquire
+xadd m16, r16
+xadd m32, r32
+xadd m64, r64
+xadd m8, r8
+xadd m8, rh
+xadd r16, r16
+xadd r32, r32
+xadd r64, r64
+xadd r8, r8
+xadd r8, rh
+xadd rh, r8
+xadd rh, rh
+xbegin label
+xbegin rel32
+xchg ax, r16
+xchg eax, r32
+xchg m16, r16
+xchg m32, r32
+xchg m64, r64
+xchg m8, r8
+xchg m8, rh
+xchg r16, ax
+xchg r16, m16
+xchg r16, r16
+xchg_1 r16, r16
+xchg r32, eax
+xchg r32, m32
+xchg r32, r32
+xchg_1 r32, r32
+xchg r64, m64
+xchg r64, r64
+xchg_1 r64, r64
+xchg r64, rax
+xchg r8, m8
+xchg r8, r8
+xchg_1 r8, r8
+xchg r8, rh
+xchg_1 r8, rh
+xchg rax, r64
+xchg rh, m8
+xchg rh, r8
+xchg_1 rh, r8
+xchg rh, rh
+xchg_1 rh, rh
+xend
+xgetbv
+xlat m8
+xlatb
+xlatb_1
+xor_ al, imm8
+xor_ ax, imm16
+xor_ eax, imm32
+xor_ m16, imm16
+xor_ m16, imm8
+xor_ m16, r16
+xor_ m32, imm32
+xor_ m32, imm8
+xor_ m32, r32
+xor_ m64, imm32
+xor_ m64, imm8
+xor_ m64, r64
+xor_ m8, imm8
+xor_ m8, r8
+xor_ m8, rh
+xor_ r16, imm16
+xor_ r16, imm8
+xor_ r16, m16
+xor_ r16, r16
+xor__1 r16, r16
+xor_ r32, imm32
+xor_ r32, imm8
+xor_ r32, m32
+xor_ r32, r32
+xor__1 r32, r32
+xor_ r64, imm32
+xor_ r64, imm8
+xor_ r64, m64
+xor_ r64, r64
+xor__1 r64, r64
+xor_ r8, imm8
+xor_ r8, m8
+xor_ r8, r8
+xor__1 r8, r8
+xor_ r8, rh
+xor__1 r8, rh
+xor_ rax, imm32
+xor_ rh, imm8
+xor_ rh, m8
+xor_ rh, r8
+xor__1 rh, r8
+xor_ rh, rh
+xor__1 rh, rh
+xorpd xmm, m128
+xorpd xmm, xmm
+xorps xmm, m128
+xorps xmm, xmm
+xrelease
+xrstor m16
+xrstor m32
+xrstor m64
+xrstor64 m16
+xrstor64 m32
+xrstor64 m64
+xsave m16
+xsave m32
+xsave m64
+xsave64 m16
+xsave64 m32
+xsave64 m64
+xsaveopt m16
+xsaveopt m32
+xsaveopt m64
+xsaveopt64 m16
+xsaveopt64 m32
+xsaveopt64 m64
+xtest

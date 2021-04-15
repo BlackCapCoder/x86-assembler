@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo -n $'BITS 64\n'`cat -` | yasm - -o /tmp/a
+xxd -ps /tmp/a

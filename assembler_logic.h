@@ -1,0 +1,272 @@
+#include "assembler_class.h"
+
+#ifndef ASSEMBLER_LOGIC_H
+#define ASSEMBLER_LOGIC_H
+
+
+uint8_t rex_w ();
+
+void rex(const uint8_t);
+void rex(const Xmm&,const uint8_t);
+void rex(const Xmm&,const Xmm&,const uint8_t);
+template <unsigned Sm, unsigned Sr> void rex (const Mem<Sm> & a, const SReg<Sr> & b, uint8_t n);
+template <unsigned Sa, unsigned Sb> void rex (const SReg<Sa> & a, const SReg<Sb> & b, uint8_t n);
+template <unsigned S> void rex (const Mem<S> & m, uint8_t n);
+template <unsigned S> void rex (const SReg<S> & x, uint8_t n);
+template <unsigned S> void pref_group4 (const Mem<S> & m);
+void pref_group3();
+template <unsigned S> void pref_group2 (const Mem<S> & m);
+void opcode(const uint8_t,const uint8_t);
+void opcode(const uint8_t);
+
+template <unsigned S> void opcode (uint8_t x, const SReg<S> & r);
+
+template <unsigned S> void opcode (uint8_t, uint8_t, const SReg<S> & r);
+// void opcode(const uint8_t,const uint8_t,const R64&);
+// void opcode(const uint8_t,const uint8_t,const R32&);
+
+
+void __mod_rm_sib (uint8_t a, uint8_t b);
+
+template <unsigned S> void mod_rm_sib(const SReg<S> & reg, uint8_t c);
+template <unsigned S> void mod_rm_sib(const Mem<S> & m, uint8_t c);
+void mod_rm_sib(const Xmm&,const uint8_t);
+template <unsigned S> void mod_rm_sib(const Mem<S> & m, const Xmm & a);
+void mod_rm_sib(const Xmm&,const Xmm&);
+template <unsigned Sm, unsigned Sr> void mod_rm_sib (const Mem<Sm> & m, const SReg<Sr> & r);
+template <unsigned Sa, unsigned Sb> void mod_rm_sib (const SReg<Sa> & a, const SReg<Sb> & b);
+
+template <unsigned S> void disp_imm(const Imm<S> &);
+
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const uint8_t,const Ymm&,const Ymm&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const uint8_t,const Ymm&,const Xmm&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const uint8_t,const Ymm&,const R64&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const uint8_t,const Ymm&,const R32&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const uint8_t,const Xmm&,const Ymm&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const uint8_t,const Xmm&,const Xmm&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const uint8_t,const Xmm&,const R64&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const uint8_t,const Xmm&,const R32&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const uint8_t,const R64&,const Xmm&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const uint8_t,const R64&,const R64&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const uint8_t,const R32&,const Xmm&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const uint8_t,const R32&,const R32&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const uint8_t,const M8&,const Ymm&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const uint8_t,const M8&,const Xmm&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const uint8_t,const M64&,const Ymm&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const uint8_t,const M64&,const Xmm&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const uint8_t,const M64&,const R64&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const uint8_t,const M64&,const R32&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const uint8_t,const M32&,const uint8_t);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const uint8_t,const M32&,const Ymm&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const uint8_t,const M32&,const Xmm&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const uint8_t,const M32&,const R64&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const uint8_t,const M32&,const R32&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const uint8_t,const M256&,const Ymm&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const uint8_t,const M256&,const Xmm&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const uint8_t,const M16&,const Ymm&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const uint8_t,const M16&,const Xmm&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const uint8_t,const M128&,const Ymm&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const uint8_t,const M128&,const Xmm&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const Ymm&,const Ymm&,const uint8_t);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const Ymm&,const Ymm&,const Ymm&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const Ymm&,const Xmm&,const Ymm&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const Ymm&,const M64&,const Ymm&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const Ymm&,const M32&,const Ymm&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const Ymm&,const M256&,const Ymm&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const Ymm&,const M128&,const Ymm&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const Xmm&,const Xmm&,const uint8_t);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const Xmm&,const Xmm&,const Xmm&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const Xmm&,const R64&,const Xmm&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const Xmm&,const R32&,const Xmm&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const Xmm&,const M8&,const Xmm&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const Xmm&,const M64&,const Xmm&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const Xmm&,const M32&,const Xmm&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const Xmm&,const M16&,const Xmm&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const Xmm&,const M128&,const Xmm&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const R64&,const R64&,const uint8_t);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const R64&,const R64&,const R64&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const R64&,const M64&,const uint8_t);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const R64&,const M64&,const R64&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const R32&,const R32&,const uint8_t);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const R32&,const R32&,const R32&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const R32&,const M32&,const uint8_t);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const R32&,const M32&,const R32&);
+void vex(const uint8_t,const uint8_t,const uint8_t,const uint8_t,const uint8_t);
+void rex(const Xmm&,const R64&,const uint8_t);
+void rex(const Xmm&,const R32&,const uint8_t);
+void rex(const Xmm&,const Mm&,const uint8_t);
+void rex(const St&,const uint8_t);
+void rex(const Rh&,const uint8_t);
+void rex(const Rh&,const Rh&,const uint8_t);
+void rex(const Rh&,const R8&,const uint8_t);
+void rex(const Rh&,const R32&,const uint8_t);
+void rex(const Rh&,const R16&,const uint8_t);
+void rex(const R8&,const Rh&,const uint8_t);
+void rex(const R64&,const Xmm&,const uint8_t);
+void rex(const R64&,const Sreg&,const uint8_t);
+void rex(const R64&,const Mm&,const uint8_t);
+void rex(const R32&,const Xmm&,const uint8_t);
+void rex(const R32&,const Mm&,const uint8_t);
+void rex(const R16&,const Sreg&,const uint8_t);
+void rex(const Mm&,const uint8_t);
+void rex(const Mm&,const Xmm&,const uint8_t);
+void rex(const Mm&,const R64&,const uint8_t);
+void rex(const Mm&,const R32&,const uint8_t);
+void rex(const Mm&,const Mm&,const uint8_t);
+void rex(const M80Fp&,const uint8_t);
+void rex(const M80Bcd&,const uint8_t);
+void rex(const M8&,const Xmm&,const uint8_t);
+void rex(const M8&,const Rh&,const uint8_t);
+void rex(const M64Int&,const uint8_t);
+void rex(const M64Fp&,const uint8_t);
+void rex(const M64&,const Xmm&,const uint8_t);
+void rex(const M64&,const Sreg&,const uint8_t);
+void rex(const M64&,const Mm&,const uint8_t);
+void rex(const M512Byte&,const uint8_t);
+void rex(const M32Int&,const uint8_t);
+void rex(const M32Fp&,const uint8_t);
+void rex(const M32&,const Xmm&,const uint8_t);
+void rex(const M32&,const Mm&,const uint8_t);
+void rex(const M2Byte&,const uint8_t);
+void rex(const M28Byte&,const uint8_t);
+void rex(const M16Int&,const uint8_t);
+void rex(const M16&,const Xmm&,const uint8_t);
+void rex(const M16&,const Sreg&,const uint8_t);
+void rex(const M16&,const Mm&,const uint8_t);
+void rex(const M128&,const uint8_t);
+void rex(const M128&,const Xmm&,const uint8_t);
+void rex(const M128&,const R64&,const uint8_t);
+void rex(const M128&,const Mm&,const uint8_t);
+void rex(const M108Byte&,const uint8_t);
+void rex(const FarPtr1664&,const uint8_t);
+void rex(const FarPtr1664&,const R64&,const uint8_t);
+void rex(const FarPtr1632&,const uint8_t);
+void rex(const FarPtr1632&,const R32&,const uint8_t);
+void rex(const FarPtr1616&,const uint8_t);
+void rex(const FarPtr1616&,const R16&,const uint8_t);
+void pref_group4(const M80Fp&);
+void pref_group4(const M80Bcd&);
+void pref_group4(const M64Int&);
+void pref_group4(const M64Fp&);
+void pref_group4(const M512Byte&);
+void pref_group4(const M32Int&);
+void pref_group4(const M32Fp&);
+void pref_group4(const M2Byte&);
+void pref_group4(const M28Byte&);
+void pref_group4(const M256&);
+void pref_group4(const M16Int&);
+void pref_group4(const M128&);
+void pref_group4(const M108Byte&);
+void pref_group4(const FarPtr1664&);
+void pref_group4(const FarPtr1632&);
+void pref_group4(const FarPtr1616&);
+void pref_group2(const M80Fp&);
+void pref_group2(const M80Bcd&);
+void pref_group2(const M64Int&);
+void pref_group2(const M64Fp&);
+void pref_group2(const M512Byte&);
+void pref_group2(const M32Int&);
+void pref_group2(const M32Fp&);
+void pref_group2(const M2Byte&);
+void pref_group2(const M28Byte&);
+void pref_group2(const M256&);
+void pref_group2(const M16Int&);
+void pref_group2(const M128&);
+void pref_group2(const M108Byte&);
+void pref_group2(const Hint&);
+void pref_group2(const FarPtr1664&);
+void pref_group2(const FarPtr1632&);
+void pref_group2(const FarPtr1616&);
+void pref_group1(const uint8_t);
+void pref_fwait(const uint8_t);
+void opcode(const uint8_t,const uint8_t,const uint8_t);
+void opcode(const uint8_t,const uint8_t,const St&);
+void opcode(const uint8_t,const Rh&);
+void mod_rm_sib(const FarPtr1664&,const uint8_t);
+void mod_rm_sib(const FarPtr1632&,const uint8_t);
+void mod_rm_sib(const FarPtr1616&,const uint8_t);
+void mod_rm_sib(const M512Byte&,const uint8_t);
+void mod_rm_sib(const M128&,const uint8_t);
+void mod_rm_sib(const M108Byte&,const uint8_t);
+void mod_rm_sib(const M80Fp&,const uint8_t);
+void mod_rm_sib(const M80Bcd&,const uint8_t);
+void mod_rm_sib(const M64Int&,const uint8_t);
+void mod_rm_sib(const M64Fp&,const uint8_t);
+void mod_rm_sib(const M32Int&,const uint8_t);
+void mod_rm_sib(const M32Fp&,const uint8_t);
+void mod_rm_sib(const M28Byte&,const uint8_t);
+void mod_rm_sib(const M16Int&,const uint8_t);
+void mod_rm_sib(const Ymm&,const uint8_t);
+void mod_rm_sib(const Rh&,const uint8_t);
+void mod_rm_sib(const Mm&,const uint8_t);
+void mod_rm_sib(const M2Byte&,const uint8_t);
+void mod_rm_sib(const Ymm&,const Ymm&);
+void mod_rm_sib(const Xmm&,const Ymm&);
+void mod_rm_sib(const M8&,const Ymm&);
+void mod_rm_sib(const M64&,const Ymm&);
+void mod_rm_sib(const M32&,const Ymm&);
+void mod_rm_sib(const M256&,const Ymm&);
+void mod_rm_sib(const M16&,const Ymm&);
+void mod_rm_sib(const M128&,const Ymm&);
+void mod_rm_sib(const Ymm&,const Xmm&);
+void mod_rm_sib(const R64&,const Xmm&);
+void mod_rm_sib(const R32&,const Xmm&);
+void mod_rm_sib(const Mm&,const Xmm&);
+void mod_rm_sib(const M256&,const Xmm&);
+void mod_rm_sib(const R64&,const Sreg&);
+void mod_rm_sib(const R16&,const Sreg&);
+void mod_rm_sib(const M64&,const Sreg&);
+void mod_rm_sib(const M16&,const Sreg&);
+void mod_rm_sib(const Rh&,const Rh&);
+void mod_rm_sib(const R8&,const Rh&);
+void mod_rm_sib(const M8&,const Rh&);
+void mod_rm_sib(const Rh&,const R8&);
+void mod_rm_sib(const Ymm&,const R64&);
+void mod_rm_sib(const Xmm&,const R64&);
+void mod_rm_sib(const Mm&,const R64&);
+void mod_rm_sib(const M128&,const R64&);
+void mod_rm_sib(const FarPtr1664&,const R64&);
+void mod_rm_sib(const Ymm&,const R32&);
+void mod_rm_sib(const Xmm&,const R32&);
+void mod_rm_sib(const Rh&,const R32&);
+void mod_rm_sib(const Mm&,const R32&);
+void mod_rm_sib(const FarPtr1632&,const R32&);
+void mod_rm_sib(const Rh&,const R16&);
+void mod_rm_sib(const FarPtr1616&,const R16&);
+void mod_rm_sib(const Xmm&,const Mm&);
+void mod_rm_sib(const R64&,const Mm&);
+void mod_rm_sib(const R32&,const Mm&);
+void mod_rm_sib(const Mm&,const Mm&);
+void mod_rm_sib(const M64&,const Mm&);
+void mod_rm_sib(const M32&,const Mm&);
+void mod_rm_sib(const M16&,const Mm&);
+void mod_rm_sib(const M128&,const Mm&);
+void disp_label8(Label&);
+void disp_label32(Label&);
+void disp_imm(const Zero&,const Imm16&);
+void disp_imm(const Ymm&);
+void disp_imm(const Xmm&);
+void disp_imm(const Rel8&);
+void disp_imm(const Rel32&);
+void disp_imm(const One&,const Imm16&);
+void disp_imm(const Moffs8&);
+void disp_imm(const Moffs64&);
+void disp_imm(const Moffs32&);
+void disp_imm(const Moffs16&);
+void disp_imm(const Imm8&,const Imm16&);
+
+struct Constants
+{
+  static auto r64s () {
+    static constexpr uint8_t rs[8] = { 0,1,2,3,4,5,6,7 };
+    return rs;
+  }
+
+  static constexpr uint8_t xmm0 () {
+    return 0;
+  }
+};
+
+
+
+#endif // ifndef ASSEMBLER_LOGIC_H
